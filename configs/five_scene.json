@@ -1,0 +1,27 @@
+{
+  "version": "five_scene_admission_v1",
+  "tag": "five_scene_v3",
+  "split_seed": 20261023,
+  "search_trials": 12000,
+  "fit_fraction": 0.6,
+  "cal_fraction": 0.2,
+  "min_fit_groups": 2,
+  "min_cal_groups": 2,
+  "min_dev_groups": 1,
+  "min_cal_objects": 5,
+  "min_dev_objects": 3,
+  "k": 5,
+  "min_free_gib": 8,
+  "min_gpu_gib": 24,
+  "max_gpu_gib": 24,
+  "scene_order": [
+    "Aquatic",
+    "Aerial",
+    "Game",
+    "Medical",
+    "Surgical"
+  ],
+  "fold_rule": "Aquatic fish/jellyfish; other scenes first two official known_classnames, fixed before new scene performance",
+  "scope": "Development admission and real shared-prefix M1 architecture plumbing only; parent training and H performance are not claimed",
+  "solver_seconds": 20
+}

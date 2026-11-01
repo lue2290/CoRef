@@ -1,0 +1,14 @@
+{
+  "tag": "reference_net_f1_formal_v1_importfix",
+  "scenes": ["Aquatic", "Aerial", "Game", "Medical", "Surgical"],
+  "tasks": ["task1", "task2"],
+  "seeds": [42, 43, 44],
+  "arms": ["F0", "F1"],
+  "known_retention_target": 0.95,
+  "calibration_min_iou": 0.5,
+  "relation_batch": 600,
+  "min_free_gib": 8,
+  "parent_checkpoint": "terminal",
+  "scope": "full official benchmark; historical frozen parents; Game reference labels corrected; no new training or test threshold tuning",
+  "historical_macro_floors": {"task1/K_AP50": 54.56, "task2/PK_AP50": 56.16, "task2/CK_AP50": 53.24}
+}

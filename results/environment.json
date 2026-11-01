@@ -1,0 +1,12 @@
+{
+  "python": "3.12.3",
+  "torch": "2.8.0+cu128",
+  "device": "cuda:0",
+  "cuda": "12.8",
+  "new_training_updates": 0,
+  "allow_tf32": false,
+  "autocast": false,
+  "nms_device": "cpu, identical for F0/F1",
+  "gpu": "NVIDIA GeForce RTX 4080 SUPER",
+  "memory_bytes": 33796456448
+}

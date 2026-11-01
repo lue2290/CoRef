@@ -1,0 +1,72 @@
+{
+  "threshold_margin": -3.2022619247436523,
+  "threshold_probability": 0.03908069123822691,
+  "target": 0.95,
+  "empirical_known_retention": 0.9506984387838948,
+  "calibrated_candidates": 1217,
+  "calibrated_source_groups": 1,
+  "per_class": {
+    "0": {
+      "name": "distal phalanges",
+      "cal_gt": 26,
+      "candidates": 28,
+      "source_groups": 1,
+      "retained_fraction": 0.8928571428571429
+    },
+    "1": {
+      "name": "proximal phalanges",
+      "cal_gt": 26,
+      "candidates": 244,
+      "source_groups": 1,
+      "retained_fraction": 0.9959016393442623
+    },
+    "2": {
+      "name": "intermediate phalanges",
+      "cal_gt": 29,
+      "candidates": 167,
+      "source_groups": 1,
+      "retained_fraction": 0.9880239520958084
+    },
+    "3": {
+      "name": "second metacarpal bone",
+      "cal_gt": 26,
+      "candidates": 325,
+      "source_groups": 1,
+      "retained_fraction": 0.9046153846153846
+    },
+    "4": {
+      "name": "third metacarpal bone",
+      "cal_gt": 25,
+      "candidates": 238,
+      "source_groups": 1,
+      "retained_fraction": 0.9453781512605042
+    },
+    "5": {
+      "name": "fifth metacarpal bone",
+      "cal_gt": 26,
+      "candidates": 215,
+      "source_groups": 1,
+      "retained_fraction": 0.9534883720930233
+    }
+  },
+  "missing_predicted_calibration_classes": [],
+  "thin_predicted_calibration_classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rare_fit_classes": [],
+  "object_threshold": 0.18997012078762054,
+  "object_threshold_fallback": false,
+  "f0_reject_shift": 0.0,
+  "f0_shift_policy": "unchanged indexed parent calibration",
+  "quantile": "numpy higher; F1 margin threshold is NOT clamped to zero; ties accepted known",
+  "population": "all original top600 cal predictions with known-shot IoU>=0.5 and unchanged parent quality gate; pooled candidate weighting",
+  "limitations": "95% is an empirical pooled known-calibration target, not a per-class or test guarantee; no source repair or reference-bank changes",
+  "test_labels_used": false,
+  "new_training_updates": 0,
+  "identity": "581c25c1aad0f26cd545a415d3bbc39ac009581d2527f0c1290684d64219a041"
+}

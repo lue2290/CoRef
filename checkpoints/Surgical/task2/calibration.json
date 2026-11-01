@@ -1,0 +1,137 @@
+{
+  "threshold_margin": 1.5756109952926636,
+  "threshold_probability": 0.8285820294616306,
+  "target": 0.95,
+  "empirical_known_retention": 0.9500424808836023,
+  "calibrated_candidates": 5885,
+  "calibrated_source_groups": 1,
+  "per_class": {
+    "0": {
+      "name": "SuctionTube",
+      "cal_gt": 8,
+      "candidates": 102,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "1": {
+      "name": "SuctionTubeSkeleton",
+      "cal_gt": 14,
+      "candidates": 41,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "2": {
+      "name": "BipolarForcepsUp",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "3": {
+      "name": "BipolarForcepsDown",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "4": {
+      "name": "BipolarForcepsUpSkeleton",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "5": {
+      "name": "Retractors",
+      "cal_gt": 45,
+      "candidates": 168,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "6": {
+      "name": "Hook",
+      "cal_gt": 42,
+      "candidates": 1220,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "7": {
+      "name": "Scissors",
+      "cal_gt": 22,
+      "candidates": 419,
+      "source_groups": 1,
+      "retained_fraction": 0.8687350835322196
+    },
+    "8": {
+      "name": "Curette",
+      "cal_gt": 8,
+      "candidates": 87,
+      "source_groups": 1,
+      "retained_fraction": 0.6091954022988506
+    },
+    "9": {
+      "name": "Scalpel",
+      "cal_gt": 52,
+      "candidates": 1096,
+      "source_groups": 1,
+      "retained_fraction": 0.8175182481751825
+    },
+    "10": {
+      "name": "BipolarForcepsDOwn",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "11": {
+      "name": "PliersDown",
+      "cal_gt": 42,
+      "candidates": 1747,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "12": {
+      "name": "PliersUp",
+      "cal_gt": 42,
+      "candidates": 1005,
+      "source_groups": 1,
+      "retained_fraction": 0.9950248756218906
+    }
+  },
+  "missing_predicted_calibration_classes": [
+    2,
+    3,
+    4,
+    10
+  ],
+  "thin_predicted_calibration_classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "rare_fit_classes": [
+    6,
+    7,
+    10
+  ],
+  "object_threshold": 0.16727210581302643,
+  "object_threshold_fallback": false,
+  "f0_reject_shift": 1.669685959815979,
+  "f0_shift_policy": "unchanged indexed parent calibration",
+  "quantile": "numpy higher; F1 margin threshold is NOT clamped to zero; ties accepted known",
+  "population": "all original top600 cal predictions with known-shot IoU>=0.5 and unchanged parent quality gate; pooled candidate weighting",
+  "limitations": "95% is an empirical pooled known-calibration target, not a per-class or test guarantee; no source repair or reference-bank changes",
+  "test_labels_used": false,
+  "new_training_updates": 0,
+  "identity": "4ddc6836a9821679d113bd297af2fd5a3aa1ff84880052671faa4e44a9faadc7"
+}

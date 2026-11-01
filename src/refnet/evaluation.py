@@ -1,0 +1,95 @@
+from pathlib import Path
+from collections import defaultdict
+import numpy as np,contextlib,io,xml.etree.ElementTree as ET
+from cil.common import iou
+from cil.evaluate import official_functions
+from .protocol import read as read_json,write as write_json,sha as digest
+def evaluate(root,prediction_path,spec,out):
+    task=spec["task"]
+    root=Path(root)
+    prediction_path=Path(prediction_path)
+    results=read_json(prediction_path)
+    test=spec["test_images"]
+    if len(results)!=len(test) or len({p["image"] for p in results})!=len(test) or set(p["image"] for p in results)!=set(test):
+        raise ValueError("Official evaluation requires exactly the locked unique test images")
+    cls=spec["classes"]
+    parsed={}
+    by_class=defaultdict(list)
+    indices={name:i for i,name in enumerate(test)}
+    errors=[]
+    unknown_gt_count=0
+    effective_counts=defaultdict(int)
+    for name in test:
+        xml=root/"assets/rwd/Annotations"/spec["scene"]/(Path(name).stem+".xml")
+        objects=[]
+        for o in ET.parse(xml).getroot().findall("object"):
+            label=o.findtext("name")
+            if int(o.findtext("difficult", "0")) == 0: effective_counts[label if label in cls else "unknown"] += 1
+            box=[float(o.find("bndbox").findtext(k))-1 for k in ["xmin","ymin","xmax","ymax"]]
+            objects.append((label if label in cls else "unknown",box))
+        parsed[name]=objects
+        unknown_gt_count=effective_counts["unknown"]
+    for pred in results:
+        name=pred["image"]
+        if not (len(pred["boxes"])==len(pred["scores"])==len(pred["labels"])):raise ValueError("Misaligned predictions")
+        boxes=np.asarray(pred["boxes"],np.float32).reshape(-1,4)
+        if not np.isfinite(boxes).all() or not np.isfinite(pred["scores"]).all():raise ValueError("Nonfinite predictions")
+        gt=parsed[name]
+        overlaps=iou(boxes,[b for _,b in gt])
+        best=overlaps.max(1) if gt else np.zeros(len(boxes))
+        own=overlaps.argmax(1) if gt else np.zeros(len(boxes),int)
+        unknown=[]
+        for j,(b,s,label) in enumerate(zip(boxes,pred["scores"],pred["labels"])):
+            label=len(cls) if label==-1 else int(label)
+            if not 0<=label<=len(cls):raise ValueError("Unknown label index")
+            image_id=f"{indices[name]}-^-{Path(name).stem}"
+            b=b.copy(); b[:2]+=1
+            line=f"{image_id} {float(s):.3f} {b[0]:.1f} {b[1]:.1f} {b[2]:.1f} {b[3]:.1f}"
+            by_class[label].append(line)
+            if label==len(cls):unknown.append({"score":float(f"{s:.3f}"),"bad":bool(best[j]<0.5)})
+        errors.append({"image":name,"group":name,"background_or_low_iou_fp":int((best<0.5).sum()),
+            "unknown_background_or_low_iou_fp":sum(x["bad"] for x in unknown),"unknown_predictions":unknown,
+            "known_as_unknown":sum(int((l==len(cls) or l==-1) and v>=0.5 and gt[j][0]!="unknown") for l,v,j in zip(pred["labels"],best,own))})
+    funcs=official_functions(root)
+    aps,curves={},{}
+    log=io.StringIO()
+    annotations=[str(root/"assets/rwd/Annotations"/spec["scene"]/(Path(n).stem+".xml")) for n in test]
+    for j,c in enumerate(cls+["unknown"]):
+        if c=="unknown" and unknown_gt_count==0:
+            aps[c]=None;curves[c]={"recall":[],"precision":[],"scores":[]};continue
+        with contextlib.redirect_stdout(log):
+            rec,prec,ap,*_=funcs["voc_eval"](by_class[j],annotations,test,c,ovthresh=0.5,use_07_metric=True,known_classes=cls)
+        aps[c]=float(ap*100)
+        conf=np.array([float(line.split()[1]) for line in by_class[j]])
+        ordered=np.argsort(-conf)
+        curves[c]={"recall":[float(x) if np.isfinite(x) else None for x in rec],"precision":prec.tolist(),"scores":conf[ordered].tolist()}
+    metrics={"task":task,"per_class_AP50":aps,"K_AP50":float(np.mean([aps[c] for c in cls])),
+             "U_AP50":aps["unknown"],"metric":"FOMO official VOC07 eleven-point AP50; inclusive coordinates, strict IoU>0.5, original rounding/tie sort",
+             "zero_effective_gt_classes":[c for c in cls if effective_counts[c]==0],
+             "empty_class_policy":"official VOC07 AP=0 included in macro; undefined recall stored null",
+             "prediction_sha256":digest(prediction_path),"official_evaluator_sha256":digest(root/"vendor/fomo_open_world_eval.py"),
+             "background_fp_per_image":float(np.mean([e["background_or_low_iou_fp"] for e in errors])),
+             "unknown_background_fp_per_image":float(np.mean([e["unknown_background_or_low_iou_fp"] for e in errors])),
+             "known_as_unknown_detections":sum(e["known_as_unknown"] for e in errors),
+             "matched_unknown_recall":{},"CODE_comparison":"Report values only; current backbone/pretraining and shot lists differ"}
+    if task=="task2":
+        metrics["PK_AP50"]=float(np.mean([aps[c] for c in cls[:len(spec["PK"])]]))
+        metrics["CK_AP50"]=float(np.mean([aps[c] for c in cls[len(spec["PK"]):]]))
+    for target in [0.6,0.7]:
+        rec=np.array(curves["unknown"]["recall"])
+        if not len(rec) or rec.max()<target:
+            metrics["matched_unknown_recall"][str(target)]={"reached":False,"max_recall":float(rec.max()) if len(rec) else None}
+        else:
+            index=int(np.flatnonzero(rec>=target)[0])
+            threshold=curves["unknown"]["scores"][index]
+            tied=np.array(curves["unknown"]["scores"])>=threshold
+            last=int(np.flatnonzero(tied)[-1])
+            fp=sum(x["bad"] and x["score"]>=threshold for e in errors for x in e["unknown_predictions"])
+            metrics["matched_unknown_recall"][str(target)]={"reached":True,"threshold":threshold,
+                "actual_recall_including_ties":float(rec[last]),"background_or_low_iou_fp_per_image":fp/len(test)}
+    out=Path(out) if out else prediction_path.parent/"evaluation"
+    write_json(out/"metrics.json",metrics)
+    write_json(out/"pr_curves.json",curves)
+    write_json(out/"errors_by_image.json",errors)
+    (out/"official_eval.log").write_text(log.getvalue(),encoding="utf-8")
+    return metrics

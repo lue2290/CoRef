@@ -1,0 +1,8 @@
+{
+  "cpu_tests_run": 18,
+  "cpu_passed": 16,
+  "cpu_skipped": 2,
+  "skip_scope": "full historical dataset/comparison-head integration",
+  "portable_gpu_inference_validated": false,
+  "checkpoint_sha256_verified": 10
+}

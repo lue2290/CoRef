@@ -1,0 +1,163 @@
+{
+  "threshold_margin": -0.8805775046348572,
+  "threshold_probability": 0.2930581200529322,
+  "target": 0.95,
+  "empirical_known_retention": 0.950168918918919,
+  "calibrated_candidates": 3552,
+  "calibrated_source_groups": 221,
+  "per_class": {
+    "0": {
+      "name": "airplane",
+      "cal_gt": 15,
+      "candidates": 98,
+      "source_groups": 15,
+      "retained_fraction": 1.0
+    },
+    "1": {
+      "name": "airport",
+      "cal_gt": 15,
+      "candidates": 440,
+      "source_groups": 15,
+      "retained_fraction": 0.9090909090909091
+    },
+    "2": {
+      "name": "basketballcourt",
+      "cal_gt": 14,
+      "candidates": 92,
+      "source_groups": 13,
+      "retained_fraction": 0.9239130434782609
+    },
+    "3": {
+      "name": "dam",
+      "cal_gt": 11,
+      "candidates": 121,
+      "source_groups": 11,
+      "retained_fraction": 0.9752066115702479
+    },
+    "4": {
+      "name": "golffield",
+      "cal_gt": 12,
+      "candidates": 241,
+      "source_groups": 10,
+      "retained_fraction": 0.9875518672199171
+    },
+    "5": {
+      "name": "groundtrackfield",
+      "cal_gt": 15,
+      "candidates": 371,
+      "source_groups": 15,
+      "retained_fraction": 0.9919137466307277
+    },
+    "6": {
+      "name": "ship",
+      "cal_gt": 20,
+      "candidates": 94,
+      "source_groups": 18,
+      "retained_fraction": 0.9148936170212766
+    },
+    "7": {
+      "name": "stadium",
+      "cal_gt": 18,
+      "candidates": 431,
+      "source_groups": 17,
+      "retained_fraction": 0.974477958236659
+    },
+    "8": {
+      "name": "storagetank",
+      "cal_gt": 14,
+      "candidates": 92,
+      "source_groups": 12,
+      "retained_fraction": 1.0
+    },
+    "9": {
+      "name": "vehicle",
+      "cal_gt": 12,
+      "candidates": 36,
+      "source_groups": 9,
+      "retained_fraction": 1.0
+    },
+    "10": {
+      "name": "baseballfield",
+      "cal_gt": 8,
+      "candidates": 80,
+      "source_groups": 8,
+      "retained_fraction": 1.0
+    },
+    "11": {
+      "name": "overpass",
+      "cal_gt": 19,
+      "candidates": 220,
+      "source_groups": 13,
+      "retained_fraction": 0.9863636363636363
+    },
+    "12": {
+      "name": "chimney",
+      "cal_gt": 8,
+      "candidates": 137,
+      "source_groups": 7,
+      "retained_fraction": 1.0
+    },
+    "13": {
+      "name": "trainstation",
+      "cal_gt": 10,
+      "candidates": 49,
+      "source_groups": 8,
+      "retained_fraction": 0.9795918367346939
+    },
+    "14": {
+      "name": "Expressway-toll-station",
+      "cal_gt": 13,
+      "candidates": 68,
+      "source_groups": 8,
+      "retained_fraction": 0.9852941176470589
+    },
+    "15": {
+      "name": "bridge",
+      "cal_gt": 22,
+      "candidates": 144,
+      "source_groups": 13,
+      "retained_fraction": 0.7777777777777778
+    },
+    "16": {
+      "name": "windmill",
+      "cal_gt": 14,
+      "candidates": 62,
+      "source_groups": 11,
+      "retained_fraction": 1.0
+    },
+    "17": {
+      "name": "tenniscourt",
+      "cal_gt": 18,
+      "candidates": 126,
+      "source_groups": 17,
+      "retained_fraction": 0.9920634920634921
+    },
+    "18": {
+      "name": "harbor",
+      "cal_gt": 20,
+      "candidates": 219,
+      "source_groups": 19,
+      "retained_fraction": 0.7853881278538812
+    },
+    "19": {
+      "name": "Expressway-Service-area",
+      "cal_gt": 21,
+      "candidates": 431,
+      "source_groups": 17,
+      "retained_fraction": 0.9605568445475638
+    }
+  },
+  "missing_predicted_calibration_classes": [],
+  "thin_predicted_calibration_classes": [],
+  "rare_fit_classes": [],
+  "object_threshold": 0.1357589066028595,
+  "object_threshold_fallback": false,
+  "f0_reject_shift": 0.21859587728977203,
+  "f0_shift_policy": "unchanged indexed parent calibration",
+  "quantile": "numpy higher; F1 margin threshold is NOT clamped to zero; ties accepted known",
+  "population": "all original top600 cal predictions with known-shot IoU>=0.5 and unchanged parent quality gate; pooled candidate weighting",
+  "limitations": "95% is an empirical pooled known-calibration target, not a per-class or test guarantee; no source repair or reference-bank changes",
+  "test_labels_used": false,
+  "new_training_updates": 0,
+  "identity": "9692ad1d8d5b51503b3d20aacbc18a2c6babdc0284d42b0a9d0d87a5101abe1a"
+}

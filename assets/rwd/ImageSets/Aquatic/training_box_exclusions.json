@@ -1,0 +1,17 @@
+[
+  {
+    "image": "IMG_2570_jpeg_jpg.rf.05001e7087160e744b14f28f1fa5c768.jpg",
+    "object_index": 14,
+    "class_name": "shark",
+    "box": [
+      92.0,
+      1773.0,
+      92.0,
+      1773.0
+    ],
+    "dimensions": [
+      1536,
+      2048
+    ]
+  }
+]

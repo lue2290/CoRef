@@ -1,0 +1,55 @@
+{
+  "threshold_margin": -1.7936235666275024,
+  "threshold_probability": 0.14262903795939724,
+  "target": 0.95,
+  "empirical_known_retention": 0.9508196721311475,
+  "calibrated_candidates": 671,
+  "calibrated_source_groups": 14,
+  "per_class": {
+    "0": {
+      "name": "fish",
+      "cal_gt": 16,
+      "candidates": 124,
+      "source_groups": 3,
+      "retained_fraction": 0.8548387096774194
+    },
+    "1": {
+      "name": "jellyfish",
+      "cal_gt": 38,
+      "candidates": 236,
+      "source_groups": 4,
+      "retained_fraction": 1.0
+    },
+    "2": {
+      "name": "penguin",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "3": {
+      "name": "shark",
+      "cal_gt": 12,
+      "candidates": 311,
+      "source_groups": 8,
+      "retained_fraction": 0.9517684887459807
+    }
+  },
+  "missing_predicted_calibration_classes": [
+    2
+  ],
+  "thin_predicted_calibration_classes": [
+    2
+  ],
+  "rare_fit_classes": [],
+  "object_threshold": 0.18483440577983856,
+  "object_threshold_fallback": false,
+  "f0_reject_shift": 0.0,
+  "f0_shift_policy": "unchanged indexed parent calibration",
+  "quantile": "numpy higher; F1 margin threshold is NOT clamped to zero; ties accepted known",
+  "population": "all original top600 cal predictions with known-shot IoU>=0.5 and unchanged parent quality gate; pooled candidate weighting",
+  "limitations": "95% is an empirical pooled known-calibration target, not a per-class or test guarantee; no source repair or reference-bank changes",
+  "test_labels_used": false,
+  "new_training_updates": 0,
+  "identity": "154d36325eebdab3288038298897d5124089c7f2467c460264f9de7bcc463342"
+}

@@ -1,0 +1,75 @@
+{
+  "threshold_margin": -2.053455352783203,
+  "threshold_probability": 0.11370370244784082,
+  "target": 0.95,
+  "empirical_known_retention": 0.9504617968094039,
+  "calibrated_candidates": 1191,
+  "calibrated_source_groups": 29,
+  "per_class": {
+    "0": {
+      "name": "fish",
+      "cal_gt": 21,
+      "candidates": 139,
+      "source_groups": 2,
+      "retained_fraction": 0.8057553956834532
+    },
+    "1": {
+      "name": "jellyfish",
+      "cal_gt": 15,
+      "candidates": 65,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "2": {
+      "name": "penguin",
+      "cal_gt": 2,
+      "candidates": 53,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "3": {
+      "name": "shark",
+      "cal_gt": 8,
+      "candidates": 134,
+      "source_groups": 6,
+      "retained_fraction": 0.7835820895522388
+    },
+    "4": {
+      "name": "puffin",
+      "cal_gt": 43,
+      "candidates": 280,
+      "source_groups": 9,
+      "retained_fraction": 0.9928571428571429
+    },
+    "5": {
+      "name": "starfish",
+      "cal_gt": 6,
+      "candidates": 247,
+      "source_groups": 5,
+      "retained_fraction": 1.0
+    },
+    "6": {
+      "name": "stingray",
+      "cal_gt": 14,
+      "candidates": 273,
+      "source_groups": 9,
+      "retained_fraction": 0.9963369963369964
+    }
+  },
+  "missing_predicted_calibration_classes": [],
+  "thin_predicted_calibration_classes": [
+    1,
+    2
+  ],
+  "rare_fit_classes": [],
+  "object_threshold": 0.14913877844810486,
+  "object_threshold_fallback": false,
+  "f0_reject_shift": 0.0,
+  "f0_shift_policy": "unchanged indexed parent calibration",
+  "quantile": "numpy higher; F1 margin threshold is NOT clamped to zero; ties accepted known",
+  "population": "all original top600 cal predictions with known-shot IoU>=0.5 and unchanged parent quality gate; pooled candidate weighting",
+  "limitations": "95% is an empirical pooled known-calibration target, not a per-class or test guarantee; no source repair or reference-bank changes",
+  "test_labels_used": false,
+  "new_training_updates": 0,
+  "identity": "5f11c276dc6206389aed09f328d2f19f42f91ada1e6da26cbf7b8c42928aee09"
+}

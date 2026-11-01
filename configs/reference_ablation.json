@@ -1,0 +1,21 @@
+{
+  "tag": "reference_net_three_scene_ablation_v1",
+  "scenes": ["Medical", "Aquatic", "Game"],
+  "task": "task1",
+  "seeds": [42, 43, 44],
+  "variants": ["no_feedback", "no_preserve", "raw_relation", "no_episode"],
+  "updates": 500,
+  "save_every": 50,
+  "validate_every": 50,
+  "warmup": 25,
+  "full_f1_tag": "reference_net_f1_formal_v1_importfix",
+  "corrected_game_tag": "reference_net_v1_game_corrected_v1",
+  "known_retention_target": 0.95,
+  "calibration_min_iou": 0.5,
+  "relation_batch": 600,
+  "arms": ["F1"],
+  "min_free_gib": 8,
+  "max_gpu_gib": 30,
+  "localization_budgets": [100, 300, 600],
+  "scope": "three-scene Task1 controlled internal ablations, fixed500 endpoints; full parents reused; Game corrected retraining required"
+}

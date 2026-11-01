@@ -1,0 +1,72 @@
+{
+  "threshold_margin": 0.3094676733016968,
+  "threshold_probability": 0.5767553209082391,
+  "target": 0.95,
+  "empirical_known_retention": 0.9502831969792322,
+  "calibrated_candidates": 1589,
+  "calibrated_source_groups": 1,
+  "per_class": {
+    "0": {
+      "name": "SuctionTube",
+      "cal_gt": 9,
+      "candidates": 291,
+      "source_groups": 1,
+      "retained_fraction": 0.9965635738831615
+    },
+    "1": {
+      "name": "SuctionTubeSkeleton",
+      "cal_gt": 19,
+      "candidates": 38,
+      "source_groups": 1,
+      "retained_fraction": 0.6842105263157895
+    },
+    "2": {
+      "name": "BipolarForcepsUp",
+      "cal_gt": 16,
+      "candidates": 448,
+      "source_groups": 1,
+      "retained_fraction": 0.96875
+    },
+    "3": {
+      "name": "BipolarForcepsDown",
+      "cal_gt": 11,
+      "candidates": 186,
+      "source_groups": 1,
+      "retained_fraction": 0.8870967741935484
+    },
+    "4": {
+      "name": "BipolarForcepsUpSkeleton",
+      "cal_gt": 14,
+      "candidates": 33,
+      "source_groups": 1,
+      "retained_fraction": 0.9696969696969697
+    },
+    "5": {
+      "name": "Retractors",
+      "cal_gt": 20,
+      "candidates": 593,
+      "source_groups": 1,
+      "retained_fraction": 0.9494097807757167
+    }
+  },
+  "missing_predicted_calibration_classes": [],
+  "thin_predicted_calibration_classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rare_fit_classes": [],
+  "object_threshold": 0.1188889890909195,
+  "object_threshold_fallback": false,
+  "f0_reject_shift": 0.33752769231796265,
+  "f0_shift_policy": "unchanged indexed parent calibration",
+  "quantile": "numpy higher; F1 margin threshold is NOT clamped to zero; ties accepted known",
+  "population": "all original top600 cal predictions with known-shot IoU>=0.5 and unchanged parent quality gate; pooled candidate weighting",
+  "limitations": "95% is an empirical pooled known-calibration target, not a per-class or test guarantee; no source repair or reference-bank changes",
+  "test_labels_used": false,
+  "new_training_updates": 0,
+  "identity": "7567047f96aa4bfdf93994f3c297a0a742a9d03bac0e89a7f5edd9d22572978f"
+}

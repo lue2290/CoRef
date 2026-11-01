@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using the released implementation."
+title: "VRDD: Visual Reference-Driven Open-World Object Detection"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Zihua
+repository-code: "https://github.com/lue2290/VRDD"
+version: 1.0.0
+date-released: 2026-11-02
+license: MIT

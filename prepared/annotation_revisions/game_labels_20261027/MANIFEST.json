@@ -1,0 +1,77 @@
+{
+  "revision": "game_labels_20261027",
+  "source_dataset_identity": "f0b819f4d1905f172a60899d852e5653a2f8d3a568073c9179948a05c0e28766",
+  "corrected_dataset_identity": "dfffb0346631e86c731c81e034efe248dbbebaa830f005e54824f44019b57564",
+  "derived": {
+    "portable_shots": {
+      "path": "prepared/annotation_revisions/game_labels_20261027/portable_shots/Game.json",
+      "source": "assets/rwd/ImageSets/Game/task1_shots_100.json",
+      "source_sha256": "55b99fb300939273a124d22ff16b27c76c72a5900817401e9ef813487a81e98d",
+      "changes": 3,
+      "sha256": "3354eda9149391ea8c27693391a1433394155defa45b0d7c27fd80cf8aa2a530"
+    },
+    "clean_shots": {
+      "path": "prepared/annotation_revisions/game_labels_20261027/clean_shots/Game.json",
+      "source": "prepared/rwd_task1/clean_shots_v1/Game/task1_shots_100.json",
+      "source_sha256": "64c8c37dc453de970d4de2ef32f1dfc8a17b747b3346b572159fd15e7144ecf5",
+      "changes": 3,
+      "sha256": "3354eda9149391ea8c27693391a1433394155defa45b0d7c27fd80cf8aa2a530"
+    },
+    "b5_suite": {
+      "path": "prepared/annotation_revisions/game_labels_20261027/b5_suite/Game.json",
+      "source": "prepared/b5_suite/b5_five_scene_v1/Game.json",
+      "source_sha256": "fc4c81c358490aefd8566dee6d6d6b70a4286056a2c914b8f93b3be8eed45a89",
+      "changes": 3,
+      "sha256": "cd5534c12d6280f97f349d79f1b4e05578f2ac7e7b826a98d361dadc9ad5af1d"
+    },
+    "task1": {
+      "path": "prepared/annotation_revisions/game_labels_20261027/reference_net/Game/task1.json",
+      "source": "prepared/reference_net/reference_net_v1/splits/Game/task1.json",
+      "source_sha256": "d07ae9995139243d1b268890505f0ea0f73c813cfc605c90db75715050059f38",
+      "changes_by_collection": {
+        "objects": [
+          "4_background_Blitzcrank_png_jpg.rf.2309279a9b3d4720a7f953e3dc905722.jpg",
+          "1_background_noise_Ziggs_png_jpg.rf.5658d4a5dccc5120cb5c34465ac71609.jpg",
+          "picture_91_background_0_png_jpg.rf.bcc5bd513da2252a52c4dc645a5e63da.jpg"
+        ],
+        "fit_objects": [
+          "picture_91_background_0_png_jpg.rf.bcc5bd513da2252a52c4dc645a5e63da.jpg"
+        ],
+        "cal_objects": [],
+        "monitor_objects": [
+          "4_background_Blitzcrank_png_jpg.rf.2309279a9b3d4720a7f953e3dc905722.jpg",
+          "1_background_noise_Ziggs_png_jpg.rf.5658d4a5dccc5120cb5c34465ac71609.jpg"
+        ]
+      },
+      "identity": "74a9b3fd9ccc80a1850e254b5d06ea5bc3eb0f6a3e71f58ab9966766c63da9a5",
+      "sha256": "4269afe77c6c124d7f156599d781888214e16257df72d16dcaee37b83958f1d8"
+    },
+    "task2": {
+      "path": "prepared/annotation_revisions/game_labels_20261027/reference_net/Game/task2.json",
+      "source": "prepared/reference_net/reference_net_v1/splits/Game/task2.json",
+      "source_sha256": "651aacef3f64a531e086ad4c8867152c1993ab6a5f01911625028e2c09d8e8b2",
+      "changes_by_collection": {
+        "objects": [
+          "4_background_Blitzcrank_png_jpg.rf.2309279a9b3d4720a7f953e3dc905722.jpg",
+          "1_background_noise_Ziggs_png_jpg.rf.5658d4a5dccc5120cb5c34465ac71609.jpg",
+          "picture_91_background_0_png_jpg.rf.bcc5bd513da2252a52c4dc645a5e63da.jpg"
+        ],
+        "fit_objects": [
+          "picture_91_background_0_png_jpg.rf.bcc5bd513da2252a52c4dc645a5e63da.jpg"
+        ],
+        "cal_objects": [
+          "4_background_Blitzcrank_png_jpg.rf.2309279a9b3d4720a7f953e3dc905722.jpg",
+          "1_background_noise_Ziggs_png_jpg.rf.5658d4a5dccc5120cb5c34465ac71609.jpg"
+        ],
+        "monitor_objects": []
+      },
+      "identity": "f8f1753958fe3715a05ac1b9ec37b26c9a04e15e4b3e1f979671db687b2b4b29",
+      "sha256": "3fc0f8cd70ba19b70a6546fccd8264414c4a65331af934b8babc08290d47d5bb"
+    }
+  },
+  "official_test_labels_changed": false,
+  "image_roles_changed": false,
+  "training_performed": false,
+  "new_tag_required": true,
+  "legacy_parents_retrained": false
+}

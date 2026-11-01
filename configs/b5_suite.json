@@ -1,0 +1,187 @@
+{
+  "tag": "b5_five_scene_v1",
+  "scenes": [
+    "Aerial",
+    "Game",
+    "Medical",
+    "Surgical"
+  ],
+  "classes": {
+    "Aerial": {
+      "PK": [
+        "airplane",
+        "airport",
+        "basketballcourt",
+        "dam",
+        "golffield",
+        "groundtrackfield",
+        "ship",
+        "stadium",
+        "storagetank",
+        "vehicle"
+      ],
+      "CK": [
+        "baseballfield",
+        "overpass",
+        "chimney",
+        "trainstation",
+        "Expressway-toll-station",
+        "bridge",
+        "windmill",
+        "tenniscourt",
+        "harbor",
+        "Expressway-Service-area"
+      ]
+    },
+    "Game": {
+      "PK": [
+        "Singed",
+        "Ezreal",
+        "Janna",
+        "Vi",
+        "Tristana",
+        "Trundle",
+        "Gankplank",
+        "Blitzcrank",
+        "Heimerdinger",
+        "Swain",
+        "Warwick",
+        "Vex",
+        "Ziggs",
+        "Zilean",
+        "Jayce",
+        "Zac",
+        "Poppy",
+        "Darius",
+        "Twitch",
+        "Cho-Gath",
+        "Katarina",
+        "Braum",
+        "Twisted Fate",
+        "Kassadin",
+        "Lulu",
+        "Malzahar",
+        "Veigar",
+        "Caitlyn",
+        "Camille",
+        "Illaoi"
+      ],
+      "CK": [
+        "Akali",
+        "Zyra",
+        "Galio",
+        "Kai-Sa",
+        "Seraphine",
+        "Jinx",
+        "Urgot",
+        "Yone",
+        "Talon",
+        "Ekko",
+        "Quinn",
+        "Sion",
+        "Kog-Maw",
+        "Samira",
+        "Tahm Kench",
+        "Miss Fortune",
+        "Viktor",
+        "Taric",
+        "Leona",
+        "Yuumi",
+        "Fiora",
+        "Graves",
+        "Lux",
+        "Lissandra",
+        "Jhin",
+        "Dr- Mundo",
+        "Orianna",
+        "Shaco",
+        "Garen"
+      ]
+    },
+    "Medical": {
+      "PK": [
+        "distal phalanges",
+        "proximal phalanges",
+        "intermediate phalanges",
+        "second metacarpal bone",
+        "third metacarpal bone",
+        "fifth metacarpal bone"
+      ],
+      "CK": [
+        "first metacarpal bone",
+        "artefact",
+        "radius",
+        "fourth metacarpal bone",
+        "ulna",
+        "soft tissue calcination"
+      ]
+    },
+    "Surgical": {
+      "PK": [
+        "SuctionTube",
+        "SuctionTubeSkeleton",
+        "BipolarForcepsUp",
+        "BipolarForcepsDown",
+        "BipolarForcepsUpSkeleton",
+        "Retractors"
+      ],
+      "CK": [
+        "Hook",
+        "Scissors",
+        "Curette",
+        "Scalpel",
+        "BipolarForcepsDOwn",
+        "PliersDown",
+        "PliersUp"
+      ]
+    },
+    "Aquatic": {
+      "PK": [
+        "fish",
+        "jellyfish",
+        "penguin",
+        "shark"
+      ],
+      "CK": [
+        "puffin",
+        "starfish",
+        "stingray"
+      ]
+    }
+  },
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 40,
+  "batch": 128,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "negative_loss_weight": 0.15,
+  "foreground_loss_weight": 0.5,
+  "proposal_limit": 300,
+  "detection_limit": 100,
+  "nms_iou": 0.5,
+  "positive_iou": 0.5,
+  "head_gate_floor": 0.25,
+  "folds": 5,
+  "split_seed": 42,
+  "max_side": 518,
+  "precision": "fp32",
+  "knn": 5,
+  "min_free_gib": 8,
+  "max_gpu_gib": 24,
+  "min_gpu_gib": 24,
+  "output_budget_gib": 8,
+  "m1_scenes": [
+    "Aquatic",
+    "Aerial",
+    "Game",
+    "Medical",
+    "Surgical"
+  ],
+  "default_seeds": [
+    42
+  ]
+}

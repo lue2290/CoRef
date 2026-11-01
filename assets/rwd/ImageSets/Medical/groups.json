@@ -1,0 +1,923 @@
+{
+  "groups": {
+    "image1_png_jpg.rf.02a7758c8f9b34e1110c3c7ed0c96c65.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.06fd374199ca29d2acd53b53fb4b8d78.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.0754a001a109de23938168702dcf2ed6.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.080ffa8d082334366cecec47026305e4.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.0a4667b032a90a669713ca2ab4c53722.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.0b3fc262361484edf6d14100c76edf97.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.18f8fc91ca76f8b311f5f3d3c828d30b.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.261ffb83e4411338f020b780266af7bc.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.2787a1843d50384929e7f273541cf3c8.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.2c647f050f1e4d675c48916200b7b0ee.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.3689b5a50f7158d9678b0ec98a49fdd3.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.391ba312871367367e30146d38812850.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.3db76f58f48e1531b8e62e693586a6c0.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.470923d19df67c4ecc8c60aa50928205.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.47ab7c19b1d38b538551b1baecf11762.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.4809a22a53be2d279426898cadf92634.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.53501bc099849261b8a8040be2aa862c.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.56d0454e14f38bca31b83108e857fd71.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.61f6313361f6cc3a5da3a8b4f1df1abd.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.63d12561c0d3e6de6ed6747204e2e589.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.647f3796888ff1f58b1a39e762533d12.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.64ecbc91332df889120001875a7fd996.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.743dc9f39ba6d6eefb1428c639b05698.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.766048100b9b30d799e755bbfcb571a0.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.791ba699eb52b35bd5884ab5fc371f7c.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.8323132b9056ed0eecb3b2805cb9dd37.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.92ebb7cc96284928ce98e8973a4b3f1c.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.95db04781c15a60bd57365b8e29c2055.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.96f73885bb92ae7ffe93f2f9afe84356.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.985b7bf2a8eee1bd017a65d056ca1529.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.99203afcf3fd7f28889c8ea6457f47e8.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.99b39083ae513b46b24eefbae45d48ef.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.a090c355414fca7ee7773ce37497d06c.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.a0e05d51e80214a4e105d3027b0e72ab.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.a18661f400f87c248587ac4f672bb633.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.a523272499f72e1161e7b8cf4c6fb771.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.a8909e1f82e41accb1b2c675a92eee14.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.a9d1b81c225678fad513d43daeb1fc73.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.ad0d275a34ae348e6ffc021df0b158ce.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.b19a6e2a1adf730d89d6d794b561f42f.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.b295d48ff3f9cb873142ea2da2ac346e.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.bb9d52ae4c799886723873b48009c6d9.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.c8ea0a0d2462bab70a5c4c711f3755b1.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.ccd31c9055ebdb9856041cd3faa70259.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.cd68f2753c72b5d2bfbe9fc3c0e55b6c.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.cfbed07496a2ffcd183883817fcd0c12.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.d3ef03931adf4a8f4c3dddf5d3fa73f7.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.d515a68eb20a18dc15f2a4b92415cd5e.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.d7971ea4a7f3b534fc3a17dfdba0bada.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.d99dff51565d05fd0267eaae485a9ce4.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.e369db2f2e5852a523a67cf87886926b.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.e5674cc91a87640c5c8443620bdf816e.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.f07e82f7dbfbf8e424923ad7f13ee8c9.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.f57b5ad7b4ca00bf72e6a06ce393aff3.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.f711a54e4f798b9691876dc016bd9a55.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.f739f5bbc48ec6f05c0fed51de577659.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.fbca13ce65898824bd75df09cc6de892.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.fd91bfd848d3ee05eec6b79a41ebdfe0.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.fe3f74ec23f37c1f6d96726a281f54df.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.fe901244ab63581d15c28eeea7bd2b6b.jpg": "image1_png_jpg",
+    "image1_png_jpg.rf.ff9747904ae9d4b8247ee01eab5e3d66.jpg": "image1_png_jpg",
+    "image2_png_jpg.rf.05e382d4baf11d506a1e448c59d21c61.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.069f7f9dc2058fece6d4dc9ef4292f14.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.09f2983df07d74042491965aebe5382b.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.0a4c57669d93c5b3e06fb164654fcf5e.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.121ec272ee18bd89cd4eef854a102e4a.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.132bb9fa2073c5835c5dd15d684b1def.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.15904df548ff3c472c0a66d183bc341b.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.233e7b2b48f658026660a8efb9122b03.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.244ff8a93b7f2434097db9dfe4907589.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.2728249e7c1fc3924ff0439147aa6beb.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.299fc958f1970380c6af6953a585339f.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.2af53f0d859ecbb011a18686b79552d5.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.31728ba35d7fa3aa73fc60f875126e11.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.34a085d85d9677f5c29a8adabd11b64b.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.3600ccdfbfd0cc126fc8ea9689d818b0.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.3a905e0012558b21f43e414730539728.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.3b2855d4d95d10074806b4a7e7feaa2f.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.3e2e5cf03115d70b05e7a26ed4a37696.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.4188e3687e194de9247cde0d3726b182.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.479ee27c70b2529738dc9efb35b3ce54.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.4b4140f2702d918bc5e67633af2eb4a8.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.5480f5cabbd3403b06ba2689c4d97610.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.5a241466bb67dd82251b135151a83ee4.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.5ce1a195a7f56f312a869dda6368be7a.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.5f9923b9e8318168bc34487574cbfb1f.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.67d3a670cab021b04f6729e860a9ef3a.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.6a4d9d17f93529efad55f8de60a03caa.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.6da9fe00d064830124c4a8739b3d6a89.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.718ba5d073f1c4cb561f66c646f171fe.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.7c9f39d8199fc3f56824d7b9a2db15b1.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.7ee9211532a50f4dfa074272e78c0a71.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.810b7b09de7021e7704bd32ab3950d48.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.8197212590cdddb42f9e3b3bf4f39dc7.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.859ecbff9af9c26a689cf2f1bd1a93d6.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.8798c47af883e474968756b89c12f8cd.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.879bad93fb673d91582d67f47b927c6b.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.882697e7ec366a27306974d8bfabe5e0.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.91c501a1ce02c5d3be1cd56b05bf9719.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.9663ebcda08f22eb65af5b345480bae3.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.9954c9c4bfed67b755b7ef7a5ed7c770.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.9ae70c9f6b95779e678bf4ee533a7565.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.9b959f6c55b0aa699b0d99df8299b735.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.9c8ef9a1a4fbac89b712064e86adef76.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.9e6fe9b543827cc3abfc7b3967d8c60d.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.a64b2baffca7f1b10ffaaf022fafd408.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.acc4ef5c9ff41e2489ff4e6225289c56.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.b5c59c5467e8ed794531c2d39cc65a94.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.b7e73b13721729428c2c9f0ce2ffb09f.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.c3531e91cb60e6d6c38290d210a256f2.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.c3bd2f7a75cdfc07b3c969067eda1adf.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.cdd3517645a02d4e7fb63745a4757761.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.cef41f249d2e3fa583b9d097e23a840f.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.d094f5f55f747cc46813a57e15ee8abb.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.d14f8006dde4a028cd5502263baf992d.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.d36da6986af29a033e43deed5a057848.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.d4ecabc44b6cb73ffaa4c54df7c0203d.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.dde8d3f3295cfee143cc52ed34570338.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.de07b712949fe7d679a6261bec8c407d.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.e41193af15c05711f018257afaffdf49.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.e81a38fab49e9f57130c550d21256a3a.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.ea22987283c04e9abe84ae6f954fb3ef.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.ec735a0923984c6e800ecd66e506fc2c.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.f1b9a5bfa02140eea57399b199fb4667.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.f51326a79327b42018ac0e7e8840374c.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.f567136db86fdb46f70b04fd59236a3e.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.f7793cf154b1d682f64110b564c59a41.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.f80366cf90930c2cfdf5939220305e1d.jpg": "image2_png_jpg",
+    "image2_png_jpg.rf.fd39e2e224a9e0f8b8ebbfdfb8073dc3.jpg": "image2_png_jpg",
+    "image3_png_jpg.rf.0122337bb82a2dc655040f1f34a3d41d.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.044da9df3a60a02a3c05919e3410dd20.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.0f94a6ea4e120d263db7c6b280777d49.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.1652dddae7bf6edbf8bb51982cd7287e.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.378dcf6036f75896659296f0cf5cc06a.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.39af611b1a56ea366f8787423b1fcc40.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.3ad6f3ce69c368da6705c08223a4a2de.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.3bac00780bc302246c75690422b418f8.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.464bc50213de5a8e10cae9b12f858d60.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.466d95e8233dbef863e5b57da7ba89f3.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.4a49e863f3ca319787707a9fb1ac4fa9.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.4bb8448a11e543676717a28ef076ca1e.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.4dac4dd714e3a44f57888c88fddecbfc.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.562b1d342953827a29115f7e0376abdd.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.578f1e2e05145eb797ee6198c35aed0a.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.5f7ca3500cc1d5905f5973350df35471.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.62ef0cef07d28f6686d4528f65b8b44d.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.676740478124800727e7c520fe948dbd.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.78c8366b282b4a6eb08abf7307afc8f1.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.8144e9b1d2bdfbc72b500a2af9365480.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.81959b797a7ab69c43ee1ac0ebc1599f.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.84671abe14a17af2993cf42be9aaa1c0.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.883e55bab36f82525b20f9d4f1fe770d.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.88f2113b6a7f6d31da291a36a6a58bff.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.89f0ff8d4bbb23f685e9b4da33fd246b.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.8ada5a868879442f53a0c44971680cd5.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.8afe9e712d4e6683b6c2ac2937899b69.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.93382b915ddeed1497b2256a17ce2429.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.a0431b9528e01a7cf411dbec21729b18.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.a43d6d423e78b73337ced200a36b5d36.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.a80cc79b91cbefa01c666347ea8f4d20.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.a8c58606930c4e872823fb3c55fecf19.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.aa53e3df4ad5faa9bfd23998f36f36d9.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.ac01430cb9e0acf9db6c51ad85c56b76.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.af17cabc08c26565b096d124b59a1cfb.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.b473072ba46e18b6192bbd765e90cd5d.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.b56d2165eb6febed0b43cac92e6acb6b.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.c7d3e8f5c9ad78fcd3dcbe4906ad95cd.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.d1d5fb77c3562ec619885211412801c5.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.dcb7c54d094daeaa4af98764167c04db.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.e580bd4761c3734ddcada4f8d45b07d1.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.e5f05705d99bd90188224a808f152e45.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.e660b3aaeae269ec1824736502f41f14.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.ea6e7d4408476737724435012a0225de.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.f1081e8833d59273227c5439bffbf0a1.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.f1c52b5bb9d180341f4f23fe8c37918c.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.f32d4bfccf8ba6d67b4492dcee5881d6.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.f7194ae267c239be123f5d4132bea4f4.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.f9a5f2804496b4510f6ee7946866212b.jpg": "image3_png_jpg",
+    "image3_png_jpg.rf.fcb5c2a00085a4008e75f32eb18a07ba.jpg": "image3_png_jpg",
+    "image4_png_jpg.rf.0814da60905324d27abec9f22ff79e3d.jpg": "image4_png_jpg",
+    "image4_png_jpg.rf.4778547955ca45f4bdacc6991776c8d3.jpg": "image4_png_jpg",
+    "image4_png_jpg.rf.afcd74132a2716b4c8655ab56813cc08.jpg": "image4_png_jpg"
+  },
+  "dimensions": {
+    "image1_png_jpg.rf.02a7758c8f9b34e1110c3c7ed0c96c65.jpg": [
+      512,
+      420
+    ],
+    "image1_png_jpg.rf.06fd374199ca29d2acd53b53fb4b8d78.jpg": [
+      420,
+      512
+    ],
+    "image1_png_jpg.rf.0754a001a109de23938168702dcf2ed6.jpg": [
+      512,
+      445
+    ],
+    "image1_png_jpg.rf.080ffa8d082334366cecec47026305e4.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.0a4667b032a90a669713ca2ab4c53722.jpg": [
+      408,
+      512
+    ],
+    "image1_png_jpg.rf.0b3fc262361484edf6d14100c76edf97.jpg": [
+      512,
+      360
+    ],
+    "image1_png_jpg.rf.18f8fc91ca76f8b311f5f3d3c828d30b.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.261ffb83e4411338f020b780266af7bc.jpg": [
+      402,
+      512
+    ],
+    "image1_png_jpg.rf.2787a1843d50384929e7f273541cf3c8.jpg": [
+      407,
+      512
+    ],
+    "image1_png_jpg.rf.2c647f050f1e4d675c48916200b7b0ee.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.3689b5a50f7158d9678b0ec98a49fdd3.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.391ba312871367367e30146d38812850.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.3db76f58f48e1531b8e62e693586a6c0.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.470923d19df67c4ecc8c60aa50928205.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.47ab7c19b1d38b538551b1baecf11762.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.4809a22a53be2d279426898cadf92634.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.53501bc099849261b8a8040be2aa862c.jpg": [
+      424,
+      512
+    ],
+    "image1_png_jpg.rf.56d0454e14f38bca31b83108e857fd71.jpg": [
+      512,
+      512
+    ],
+    "image1_png_jpg.rf.61f6313361f6cc3a5da3a8b4f1df1abd.jpg": [
+      345,
+      512
+    ],
+    "image1_png_jpg.rf.63d12561c0d3e6de6ed6747204e2e589.jpg": [
+      379,
+      512
+    ],
+    "image1_png_jpg.rf.647f3796888ff1f58b1a39e762533d12.jpg": [
+      512,
+      512
+    ],
+    "image1_png_jpg.rf.64ecbc91332df889120001875a7fd996.jpg": [
+      476,
+      512
+    ],
+    "image1_png_jpg.rf.743dc9f39ba6d6eefb1428c639b05698.jpg": [
+      407,
+      512
+    ],
+    "image1_png_jpg.rf.766048100b9b30d799e755bbfcb571a0.jpg": [
+      512,
+      406
+    ],
+    "image1_png_jpg.rf.791ba699eb52b35bd5884ab5fc371f7c.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.8323132b9056ed0eecb3b2805cb9dd37.jpg": [
+      372,
+      512
+    ],
+    "image1_png_jpg.rf.92ebb7cc96284928ce98e8973a4b3f1c.jpg": [
+      396,
+      512
+    ],
+    "image1_png_jpg.rf.95db04781c15a60bd57365b8e29c2055.jpg": [
+      367,
+      512
+    ],
+    "image1_png_jpg.rf.96f73885bb92ae7ffe93f2f9afe84356.jpg": [
+      357,
+      512
+    ],
+    "image1_png_jpg.rf.985b7bf2a8eee1bd017a65d056ca1529.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.99203afcf3fd7f28889c8ea6457f47e8.jpg": [
+      436,
+      512
+    ],
+    "image1_png_jpg.rf.99b39083ae513b46b24eefbae45d48ef.jpg": [
+      354,
+      512
+    ],
+    "image1_png_jpg.rf.a090c355414fca7ee7773ce37497d06c.jpg": [
+      358,
+      512
+    ],
+    "image1_png_jpg.rf.a0e05d51e80214a4e105d3027b0e72ab.jpg": [
+      424,
+      512
+    ],
+    "image1_png_jpg.rf.a18661f400f87c248587ac4f672bb633.jpg": [
+      370,
+      512
+    ],
+    "image1_png_jpg.rf.a523272499f72e1161e7b8cf4c6fb771.jpg": [
+      343,
+      512
+    ],
+    "image1_png_jpg.rf.a8909e1f82e41accb1b2c675a92eee14.jpg": [
+      429,
+      512
+    ],
+    "image1_png_jpg.rf.a9d1b81c225678fad513d43daeb1fc73.jpg": [
+      303,
+      512
+    ],
+    "image1_png_jpg.rf.ad0d275a34ae348e6ffc021df0b158ce.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.b19a6e2a1adf730d89d6d794b561f42f.jpg": [
+      290,
+      512
+    ],
+    "image1_png_jpg.rf.b295d48ff3f9cb873142ea2da2ac346e.jpg": [
+      368,
+      512
+    ],
+    "image1_png_jpg.rf.bb9d52ae4c799886723873b48009c6d9.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.c8ea0a0d2462bab70a5c4c711f3755b1.jpg": [
+      258,
+      512
+    ],
+    "image1_png_jpg.rf.ccd31c9055ebdb9856041cd3faa70259.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.cd68f2753c72b5d2bfbe9fc3c0e55b6c.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.cfbed07496a2ffcd183883817fcd0c12.jpg": [
+      352,
+      512
+    ],
+    "image1_png_jpg.rf.d3ef03931adf4a8f4c3dddf5d3fa73f7.jpg": [
+      323,
+      512
+    ],
+    "image1_png_jpg.rf.d515a68eb20a18dc15f2a4b92415cd5e.jpg": [
+      391,
+      512
+    ],
+    "image1_png_jpg.rf.d7971ea4a7f3b534fc3a17dfdba0bada.jpg": [
+      512,
+      443
+    ],
+    "image1_png_jpg.rf.d99dff51565d05fd0267eaae485a9ce4.jpg": [
+      512,
+      420
+    ],
+    "image1_png_jpg.rf.e369db2f2e5852a523a67cf87886926b.jpg": [
+      424,
+      512
+    ],
+    "image1_png_jpg.rf.e5674cc91a87640c5c8443620bdf816e.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.f07e82f7dbfbf8e424923ad7f13ee8c9.jpg": [
+      407,
+      512
+    ],
+    "image1_png_jpg.rf.f57b5ad7b4ca00bf72e6a06ce393aff3.jpg": [
+      278,
+      512
+    ],
+    "image1_png_jpg.rf.f711a54e4f798b9691876dc016bd9a55.jpg": [
+      379,
+      512
+    ],
+    "image1_png_jpg.rf.f739f5bbc48ec6f05c0fed51de577659.jpg": [
+      328,
+      512
+    ],
+    "image1_png_jpg.rf.fbca13ce65898824bd75df09cc6de892.jpg": [
+      406,
+      512
+    ],
+    "image1_png_jpg.rf.fd91bfd848d3ee05eec6b79a41ebdfe0.jpg": [
+      300,
+      512
+    ],
+    "image1_png_jpg.rf.fe3f74ec23f37c1f6d96726a281f54df.jpg": [
+      375,
+      512
+    ],
+    "image1_png_jpg.rf.fe901244ab63581d15c28eeea7bd2b6b.jpg": [
+      446,
+      512
+    ],
+    "image1_png_jpg.rf.ff9747904ae9d4b8247ee01eab5e3d66.jpg": [
+      469,
+      512
+    ],
+    "image2_png_jpg.rf.05e382d4baf11d506a1e448c59d21c61.jpg": [
+      379,
+      512
+    ],
+    "image2_png_jpg.rf.069f7f9dc2058fece6d4dc9ef4292f14.jpg": [
+      412,
+      512
+    ],
+    "image2_png_jpg.rf.09f2983df07d74042491965aebe5382b.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.0a4c57669d93c5b3e06fb164654fcf5e.jpg": [
+      385,
+      512
+    ],
+    "image2_png_jpg.rf.121ec272ee18bd89cd4eef854a102e4a.jpg": [
+      308,
+      512
+    ],
+    "image2_png_jpg.rf.132bb9fa2073c5835c5dd15d684b1def.jpg": [
+      440,
+      512
+    ],
+    "image2_png_jpg.rf.15904df548ff3c472c0a66d183bc341b.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.233e7b2b48f658026660a8efb9122b03.jpg": [
+      459,
+      512
+    ],
+    "image2_png_jpg.rf.244ff8a93b7f2434097db9dfe4907589.jpg": [
+      512,
+      420
+    ],
+    "image2_png_jpg.rf.2728249e7c1fc3924ff0439147aa6beb.jpg": [
+      364,
+      512
+    ],
+    "image2_png_jpg.rf.299fc958f1970380c6af6953a585339f.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.2af53f0d859ecbb011a18686b79552d5.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.31728ba35d7fa3aa73fc60f875126e11.jpg": [
+      329,
+      512
+    ],
+    "image2_png_jpg.rf.34a085d85d9677f5c29a8adabd11b64b.jpg": [
+      446,
+      512
+    ],
+    "image2_png_jpg.rf.3600ccdfbfd0cc126fc8ea9689d818b0.jpg": [
+      512,
+      448
+    ],
+    "image2_png_jpg.rf.3a905e0012558b21f43e414730539728.jpg": [
+      415,
+      512
+    ],
+    "image2_png_jpg.rf.3b2855d4d95d10074806b4a7e7feaa2f.jpg": [
+      387,
+      512
+    ],
+    "image2_png_jpg.rf.3e2e5cf03115d70b05e7a26ed4a37696.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.4188e3687e194de9247cde0d3726b182.jpg": [
+      431,
+      512
+    ],
+    "image2_png_jpg.rf.479ee27c70b2529738dc9efb35b3ce54.jpg": [
+      368,
+      512
+    ],
+    "image2_png_jpg.rf.4b4140f2702d918bc5e67633af2eb4a8.jpg": [
+      364,
+      512
+    ],
+    "image2_png_jpg.rf.5480f5cabbd3403b06ba2689c4d97610.jpg": [
+      433,
+      512
+    ],
+    "image2_png_jpg.rf.5a241466bb67dd82251b135151a83ee4.jpg": [
+      375,
+      512
+    ],
+    "image2_png_jpg.rf.5ce1a195a7f56f312a869dda6368be7a.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.5f9923b9e8318168bc34487574cbfb1f.jpg": [
+      338,
+      512
+    ],
+    "image2_png_jpg.rf.67d3a670cab021b04f6729e860a9ef3a.jpg": [
+      353,
+      512
+    ],
+    "image2_png_jpg.rf.6a4d9d17f93529efad55f8de60a03caa.jpg": [
+      368,
+      512
+    ],
+    "image2_png_jpg.rf.6da9fe00d064830124c4a8739b3d6a89.jpg": [
+      370,
+      512
+    ],
+    "image2_png_jpg.rf.718ba5d073f1c4cb561f66c646f171fe.jpg": [
+      407,
+      512
+    ],
+    "image2_png_jpg.rf.7c9f39d8199fc3f56824d7b9a2db15b1.jpg": [
+      433,
+      512
+    ],
+    "image2_png_jpg.rf.7ee9211532a50f4dfa074272e78c0a71.jpg": [
+      360,
+      512
+    ],
+    "image2_png_jpg.rf.810b7b09de7021e7704bd32ab3950d48.jpg": [
+      361,
+      512
+    ],
+    "image2_png_jpg.rf.8197212590cdddb42f9e3b3bf4f39dc7.jpg": [
+      512,
+      392
+    ],
+    "image2_png_jpg.rf.859ecbff9af9c26a689cf2f1bd1a93d6.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.8798c47af883e474968756b89c12f8cd.jpg": [
+      368,
+      512
+    ],
+    "image2_png_jpg.rf.879bad93fb673d91582d67f47b927c6b.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.882697e7ec366a27306974d8bfabe5e0.jpg": [
+      397,
+      512
+    ],
+    "image2_png_jpg.rf.91c501a1ce02c5d3be1cd56b05bf9719.jpg": [
+      324,
+      512
+    ],
+    "image2_png_jpg.rf.9663ebcda08f22eb65af5b345480bae3.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.9954c9c4bfed67b755b7ef7a5ed7c770.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.9ae70c9f6b95779e678bf4ee533a7565.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.9b959f6c55b0aa699b0d99df8299b735.jpg": [
+      512,
+      420
+    ],
+    "image2_png_jpg.rf.9c8ef9a1a4fbac89b712064e86adef76.jpg": [
+      351,
+      512
+    ],
+    "image2_png_jpg.rf.9e6fe9b543827cc3abfc7b3967d8c60d.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.a64b2baffca7f1b10ffaaf022fafd408.jpg": [
+      423,
+      512
+    ],
+    "image2_png_jpg.rf.acc4ef5c9ff41e2489ff4e6225289c56.jpg": [
+      407,
+      512
+    ],
+    "image2_png_jpg.rf.b5c59c5467e8ed794531c2d39cc65a94.jpg": [
+      328,
+      512
+    ],
+    "image2_png_jpg.rf.b7e73b13721729428c2c9f0ce2ffb09f.jpg": [
+      386,
+      512
+    ],
+    "image2_png_jpg.rf.c3531e91cb60e6d6c38290d210a256f2.jpg": [
+      393,
+      512
+    ],
+    "image2_png_jpg.rf.c3bd2f7a75cdfc07b3c969067eda1adf.jpg": [
+      332,
+      512
+    ],
+    "image2_png_jpg.rf.cdd3517645a02d4e7fb63745a4757761.jpg": [
+      337,
+      512
+    ],
+    "image2_png_jpg.rf.cef41f249d2e3fa583b9d097e23a840f.jpg": [
+      303,
+      512
+    ],
+    "image2_png_jpg.rf.d094f5f55f747cc46813a57e15ee8abb.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.d14f8006dde4a028cd5502263baf992d.jpg": [
+      375,
+      512
+    ],
+    "image2_png_jpg.rf.d36da6986af29a033e43deed5a057848.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.d4ecabc44b6cb73ffaa4c54df7c0203d.jpg": [
+      469,
+      512
+    ],
+    "image2_png_jpg.rf.dde8d3f3295cfee143cc52ed34570338.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.de07b712949fe7d679a6261bec8c407d.jpg": [
+      474,
+      512
+    ],
+    "image2_png_jpg.rf.e41193af15c05711f018257afaffdf49.jpg": [
+      512,
+      443
+    ],
+    "image2_png_jpg.rf.e81a38fab49e9f57130c550d21256a3a.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.ea22987283c04e9abe84ae6f954fb3ef.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.ec735a0923984c6e800ecd66e506fc2c.jpg": [
+      425,
+      512
+    ],
+    "image2_png_jpg.rf.f1b9a5bfa02140eea57399b199fb4667.jpg": [
+      384,
+      512
+    ],
+    "image2_png_jpg.rf.f51326a79327b42018ac0e7e8840374c.jpg": [
+      379,
+      512
+    ],
+    "image2_png_jpg.rf.f567136db86fdb46f70b04fd59236a3e.jpg": [
+      406,
+      512
+    ],
+    "image2_png_jpg.rf.f7793cf154b1d682f64110b564c59a41.jpg": [
+      379,
+      512
+    ],
+    "image2_png_jpg.rf.f80366cf90930c2cfdf5939220305e1d.jpg": [
+      424,
+      512
+    ],
+    "image2_png_jpg.rf.fd39e2e224a9e0f8b8ebbfdfb8073dc3.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.0122337bb82a2dc655040f1f34a3d41d.jpg": [
+      414,
+      512
+    ],
+    "image3_png_jpg.rf.044da9df3a60a02a3c05919e3410dd20.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.0f94a6ea4e120d263db7c6b280777d49.jpg": [
+      407,
+      512
+    ],
+    "image3_png_jpg.rf.1652dddae7bf6edbf8bb51982cd7287e.jpg": [
+      390,
+      512
+    ],
+    "image3_png_jpg.rf.378dcf6036f75896659296f0cf5cc06a.jpg": [
+      383,
+      512
+    ],
+    "image3_png_jpg.rf.39af611b1a56ea366f8787423b1fcc40.jpg": [
+      431,
+      512
+    ],
+    "image3_png_jpg.rf.3ad6f3ce69c368da6705c08223a4a2de.jpg": [
+      459,
+      512
+    ],
+    "image3_png_jpg.rf.3bac00780bc302246c75690422b418f8.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.464bc50213de5a8e10cae9b12f858d60.jpg": [
+      356,
+      512
+    ],
+    "image3_png_jpg.rf.466d95e8233dbef863e5b57da7ba89f3.jpg": [
+      407,
+      512
+    ],
+    "image3_png_jpg.rf.4a49e863f3ca319787707a9fb1ac4fa9.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.4bb8448a11e543676717a28ef076ca1e.jpg": [
+      425,
+      512
+    ],
+    "image3_png_jpg.rf.4dac4dd714e3a44f57888c88fddecbfc.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.562b1d342953827a29115f7e0376abdd.jpg": [
+      424,
+      512
+    ],
+    "image3_png_jpg.rf.578f1e2e05145eb797ee6198c35aed0a.jpg": [
+      483,
+      512
+    ],
+    "image3_png_jpg.rf.5f7ca3500cc1d5905f5973350df35471.jpg": [
+      357,
+      512
+    ],
+    "image3_png_jpg.rf.62ef0cef07d28f6686d4528f65b8b44d.jpg": [
+      424,
+      512
+    ],
+    "image3_png_jpg.rf.676740478124800727e7c520fe948dbd.jpg": [
+      287,
+      512
+    ],
+    "image3_png_jpg.rf.78c8366b282b4a6eb08abf7307afc8f1.jpg": [
+      417,
+      512
+    ],
+    "image3_png_jpg.rf.8144e9b1d2bdfbc72b500a2af9365480.jpg": [
+      417,
+      512
+    ],
+    "image3_png_jpg.rf.81959b797a7ab69c43ee1ac0ebc1599f.jpg": [
+      332,
+      512
+    ],
+    "image3_png_jpg.rf.84671abe14a17af2993cf42be9aaa1c0.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.883e55bab36f82525b20f9d4f1fe770d.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.88f2113b6a7f6d31da291a36a6a58bff.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.89f0ff8d4bbb23f685e9b4da33fd246b.jpg": [
+      410,
+      512
+    ],
+    "image3_png_jpg.rf.8ada5a868879442f53a0c44971680cd5.jpg": [
+      512,
+      502
+    ],
+    "image3_png_jpg.rf.8afe9e712d4e6683b6c2ac2937899b69.jpg": [
+      407,
+      512
+    ],
+    "image3_png_jpg.rf.93382b915ddeed1497b2256a17ce2429.jpg": [
+      385,
+      512
+    ],
+    "image3_png_jpg.rf.a0431b9528e01a7cf411dbec21729b18.jpg": [
+      337,
+      512
+    ],
+    "image3_png_jpg.rf.a43d6d423e78b73337ced200a36b5d36.jpg": [
+      418,
+      512
+    ],
+    "image3_png_jpg.rf.a80cc79b91cbefa01c666347ea8f4d20.jpg": [
+      387,
+      512
+    ],
+    "image3_png_jpg.rf.a8c58606930c4e872823fb3c55fecf19.jpg": [
+      359,
+      512
+    ],
+    "image3_png_jpg.rf.aa53e3df4ad5faa9bfd23998f36f36d9.jpg": [
+      411,
+      512
+    ],
+    "image3_png_jpg.rf.ac01430cb9e0acf9db6c51ad85c56b76.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.af17cabc08c26565b096d124b59a1cfb.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.b473072ba46e18b6192bbd765e90cd5d.jpg": [
+      407,
+      512
+    ],
+    "image3_png_jpg.rf.b56d2165eb6febed0b43cac92e6acb6b.jpg": [
+      364,
+      512
+    ],
+    "image3_png_jpg.rf.c7d3e8f5c9ad78fcd3dcbe4906ad95cd.jpg": [
+      368,
+      512
+    ],
+    "image3_png_jpg.rf.d1d5fb77c3562ec619885211412801c5.jpg": [
+      363,
+      512
+    ],
+    "image3_png_jpg.rf.dcb7c54d094daeaa4af98764167c04db.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.e580bd4761c3734ddcada4f8d45b07d1.jpg": [
+      361,
+      512
+    ],
+    "image3_png_jpg.rf.e5f05705d99bd90188224a808f152e45.jpg": [
+      302,
+      512
+    ],
+    "image3_png_jpg.rf.e660b3aaeae269ec1824736502f41f14.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.ea6e7d4408476737724435012a0225de.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.f1081e8833d59273227c5439bffbf0a1.jpg": [
+      391,
+      512
+    ],
+    "image3_png_jpg.rf.f1c52b5bb9d180341f4f23fe8c37918c.jpg": [
+      330,
+      512
+    ],
+    "image3_png_jpg.rf.f32d4bfccf8ba6d67b4492dcee5881d6.jpg": [
+      406,
+      512
+    ],
+    "image3_png_jpg.rf.f7194ae267c239be123f5d4132bea4f4.jpg": [
+      451,
+      512
+    ],
+    "image3_png_jpg.rf.f9a5f2804496b4510f6ee7946866212b.jpg": [
+      375,
+      512
+    ],
+    "image3_png_jpg.rf.fcb5c2a00085a4008e75f32eb18a07ba.jpg": [
+      431,
+      512
+    ],
+    "image4_png_jpg.rf.0814da60905324d27abec9f22ff79e3d.jpg": [
+      419,
+      512
+    ],
+    "image4_png_jpg.rf.4778547955ca45f4bdacc6991776c8d3.jpg": [
+      387,
+      512
+    ],
+    "image4_png_jpg.rf.afcd74132a2716b4c8655ab56813cc08.jpg": [
+      407,
+      512
+    ]
+  },
+  "method": "Surgical video prefix; Roboflow original filename before .rf; Aerial image ID; exact encoded image SHA unions. Conservative heuristic, not certified independent acquisition groups.",
+  "official_train_test_group_overlap": [
+    "image1_png_jpg",
+    "image2_png_jpg",
+    "image3_png_jpg",
+    "image4_png_jpg"
+  ]
+}

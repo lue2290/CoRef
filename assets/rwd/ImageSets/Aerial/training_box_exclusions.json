@@ -1,0 +1,34 @@
+[
+  {
+    "image": "08325.jpg",
+    "object_index": 3,
+    "class_name": "vehicle",
+    "original_box": [
+      0.0,
+      785.0,
+      0.0,
+      787.0
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "reason": "nonfinite_nonpositive_or_no_visible_area"
+  },
+  {
+    "image": "15504.jpg",
+    "object_index": 48,
+    "class_name": "ship",
+    "original_box": [
+      529.0,
+      329.0,
+      529.0,
+      329.0
+    ],
+    "dimensions": [
+      800,
+      800
+    ],
+    "reason": "nonfinite_nonpositive_or_no_visible_area"
+  }
+]

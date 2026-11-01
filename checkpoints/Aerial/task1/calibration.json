@@ -1,0 +1,93 @@
+{
+  "threshold_margin": -1.8377301692962646,
+  "threshold_probability": 0.13731996267201038,
+  "target": 0.95,
+  "empirical_known_retention": 0.9502541757443719,
+  "calibrated_candidates": 2754,
+  "calibrated_source_groups": 123,
+  "per_class": {
+    "0": {
+      "name": "airplane",
+      "cal_gt": 11,
+      "candidates": 130,
+      "source_groups": 11,
+      "retained_fraction": 1.0
+    },
+    "1": {
+      "name": "airport",
+      "cal_gt": 17,
+      "candidates": 618,
+      "source_groups": 17,
+      "retained_fraction": 0.8932038834951457
+    },
+    "2": {
+      "name": "basketballcourt",
+      "cal_gt": 16,
+      "candidates": 123,
+      "source_groups": 14,
+      "retained_fraction": 0.991869918699187
+    },
+    "3": {
+      "name": "dam",
+      "cal_gt": 13,
+      "candidates": 249,
+      "source_groups": 12,
+      "retained_fraction": 0.9919678714859438
+    },
+    "4": {
+      "name": "golffield",
+      "cal_gt": 20,
+      "candidates": 569,
+      "source_groups": 16,
+      "retained_fraction": 0.9912126537785588
+    },
+    "5": {
+      "name": "groundtrackfield",
+      "cal_gt": 17,
+      "candidates": 517,
+      "source_groups": 17,
+      "retained_fraction": 0.9168278529980658
+    },
+    "6": {
+      "name": "ship",
+      "cal_gt": 14,
+      "candidates": 89,
+      "source_groups": 12,
+      "retained_fraction": 1.0
+    },
+    "7": {
+      "name": "stadium",
+      "cal_gt": 8,
+      "candidates": 265,
+      "source_groups": 8,
+      "retained_fraction": 0.9509433962264151
+    },
+    "8": {
+      "name": "storagetank",
+      "cal_gt": 17,
+      "candidates": 169,
+      "source_groups": 17,
+      "retained_fraction": 0.9585798816568047
+    },
+    "9": {
+      "name": "vehicle",
+      "cal_gt": 12,
+      "candidates": 25,
+      "source_groups": 7,
+      "retained_fraction": 1.0
+    }
+  },
+  "missing_predicted_calibration_classes": [],
+  "thin_predicted_calibration_classes": [],
+  "rare_fit_classes": [],
+  "object_threshold": 0.132211372256279,
+  "object_threshold_fallback": false,
+  "f0_reject_shift": 0.0,
+  "f0_shift_policy": "unchanged indexed parent calibration",
+  "quantile": "numpy higher; F1 margin threshold is NOT clamped to zero; ties accepted known",
+  "population": "all original top600 cal predictions with known-shot IoU>=0.5 and unchanged parent quality gate; pooled candidate weighting",
+  "limitations": "95% is an empirical pooled known-calibration target, not a per-class or test guarantee; no source repair or reference-bank changes",
+  "test_labels_used": false,
+  "new_training_updates": 0,
+  "identity": "071f1907705b24487740586c347a7a502e00f5b772315f4f4d15d3dbc846a766"
+}

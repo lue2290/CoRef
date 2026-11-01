@@ -1,0 +1,460 @@
+{
+  "threshold_margin": 1.632753849029541,
+  "threshold_probability": 0.836546539325694,
+  "target": 0.95,
+  "empirical_known_retention": 0.9504076086956522,
+  "calibrated_candidates": 1472,
+  "calibrated_source_groups": 59,
+  "per_class": {
+    "0": {
+      "name": "Singed",
+      "cal_gt": 2,
+      "candidates": 14,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "1": {
+      "name": "Ezreal",
+      "cal_gt": 3,
+      "candidates": 13,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    },
+    "2": {
+      "name": "Janna",
+      "cal_gt": 2,
+      "candidates": 15,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "3": {
+      "name": "Vi",
+      "cal_gt": 6,
+      "candidates": 70,
+      "source_groups": 4,
+      "retained_fraction": 0.8142857142857143
+    },
+    "4": {
+      "name": "Tristana",
+      "cal_gt": 6,
+      "candidates": 35,
+      "source_groups": 4,
+      "retained_fraction": 0.7714285714285715
+    },
+    "5": {
+      "name": "Trundle",
+      "cal_gt": 3,
+      "candidates": 32,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "6": {
+      "name": "Gankplank",
+      "cal_gt": 4,
+      "candidates": 31,
+      "source_groups": 3,
+      "retained_fraction": 0.967741935483871
+    },
+    "7": {
+      "name": "Blitzcrank",
+      "cal_gt": 3,
+      "candidates": 27,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "8": {
+      "name": "Heimerdinger",
+      "cal_gt": 5,
+      "candidates": 20,
+      "source_groups": 4,
+      "retained_fraction": 1.0
+    },
+    "9": {
+      "name": "Swain",
+      "cal_gt": 6,
+      "candidates": 48,
+      "source_groups": 5,
+      "retained_fraction": 1.0
+    },
+    "10": {
+      "name": "Warwick",
+      "cal_gt": 4,
+      "candidates": 23,
+      "source_groups": 3,
+      "retained_fraction": 0.9565217391304348
+    },
+    "11": {
+      "name": "Vex",
+      "cal_gt": 1,
+      "candidates": 6,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "12": {
+      "name": "Ziggs",
+      "cal_gt": 2,
+      "candidates": 13,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "13": {
+      "name": "Zilean",
+      "cal_gt": 3,
+      "candidates": 22,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    },
+    "14": {
+      "name": "Jayce",
+      "cal_gt": 5,
+      "candidates": 48,
+      "source_groups": 4,
+      "retained_fraction": 1.0
+    },
+    "15": {
+      "name": "Zac",
+      "cal_gt": 4,
+      "candidates": 23,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    },
+    "16": {
+      "name": "Poppy",
+      "cal_gt": 1,
+      "candidates": 6,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "17": {
+      "name": "Darius",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "18": {
+      "name": "Twitch",
+      "cal_gt": 4,
+      "candidates": 17,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "19": {
+      "name": "Cho-Gath",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "20": {
+      "name": "Katarina",
+      "cal_gt": 4,
+      "candidates": 23,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    },
+    "21": {
+      "name": "Braum",
+      "cal_gt": 4,
+      "candidates": 41,
+      "source_groups": 4,
+      "retained_fraction": 1.0
+    },
+    "22": {
+      "name": "Twisted Fate",
+      "cal_gt": 4,
+      "candidates": 12,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    },
+    "23": {
+      "name": "Kassadin",
+      "cal_gt": 1,
+      "candidates": 9,
+      "source_groups": 1,
+      "retained_fraction": 0.5555555555555556
+    },
+    "24": {
+      "name": "Lulu",
+      "cal_gt": 1,
+      "candidates": 4,
+      "source_groups": 1,
+      "retained_fraction": 0.0
+    },
+    "25": {
+      "name": "Malzahar",
+      "cal_gt": 6,
+      "candidates": 36,
+      "source_groups": 4,
+      "retained_fraction": 1.0
+    },
+    "26": {
+      "name": "Veigar",
+      "cal_gt": 5,
+      "candidates": 31,
+      "source_groups": 4,
+      "retained_fraction": 1.0
+    },
+    "27": {
+      "name": "Caitlyn",
+      "cal_gt": 5,
+      "candidates": 34,
+      "source_groups": 4,
+      "retained_fraction": 1.0
+    },
+    "28": {
+      "name": "Camille",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "29": {
+      "name": "Illaoi",
+      "cal_gt": 4,
+      "candidates": 32,
+      "source_groups": 2,
+      "retained_fraction": 0.96875
+    },
+    "30": {
+      "name": "Akali",
+      "cal_gt": 1,
+      "candidates": 8,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "31": {
+      "name": "Zyra",
+      "cal_gt": 5,
+      "candidates": 33,
+      "source_groups": 4,
+      "retained_fraction": 0.9696969696969697
+    },
+    "32": {
+      "name": "Galio",
+      "cal_gt": 2,
+      "candidates": 25,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "33": {
+      "name": "Kai-Sa",
+      "cal_gt": 6,
+      "candidates": 61,
+      "source_groups": 4,
+      "retained_fraction": 0.9836065573770492
+    },
+    "34": {
+      "name": "Seraphine",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "35": {
+      "name": "Jinx",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "36": {
+      "name": "Urgot",
+      "cal_gt": 5,
+      "candidates": 51,
+      "source_groups": 4,
+      "retained_fraction": 1.0
+    },
+    "37": {
+      "name": "Yone",
+      "cal_gt": 3,
+      "candidates": 26,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "38": {
+      "name": "Talon",
+      "cal_gt": 1,
+      "candidates": 5,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "39": {
+      "name": "Ekko",
+      "cal_gt": 2,
+      "candidates": 18,
+      "source_groups": 2,
+      "retained_fraction": 0.4444444444444444
+    },
+    "40": {
+      "name": "Quinn",
+      "cal_gt": 2,
+      "candidates": 16,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "41": {
+      "name": "Sion",
+      "cal_gt": 3,
+      "candidates": 32,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "42": {
+      "name": "Kog-Maw",
+      "cal_gt": 4,
+      "candidates": 24,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "43": {
+      "name": "Samira",
+      "cal_gt": 3,
+      "candidates": 32,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    },
+    "44": {
+      "name": "Tahm Kench",
+      "cal_gt": 5,
+      "candidates": 40,
+      "source_groups": 4,
+      "retained_fraction": 1.0
+    },
+    "45": {
+      "name": "Miss Fortune",
+      "cal_gt": 5,
+      "candidates": 42,
+      "source_groups": 4,
+      "retained_fraction": 0.8571428571428571
+    },
+    "46": {
+      "name": "Viktor",
+      "cal_gt": 1,
+      "candidates": 9,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "47": {
+      "name": "Taric",
+      "cal_gt": 3,
+      "candidates": 26,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "48": {
+      "name": "Leona",
+      "cal_gt": 5,
+      "candidates": 73,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    },
+    "49": {
+      "name": "Yuumi",
+      "cal_gt": 3,
+      "candidates": 11,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "50": {
+      "name": "Fiora",
+      "cal_gt": 6,
+      "candidates": 61,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    },
+    "51": {
+      "name": "Graves",
+      "cal_gt": 4,
+      "candidates": 29,
+      "source_groups": 3,
+      "retained_fraction": 0.6896551724137931
+    },
+    "52": {
+      "name": "Lux",
+      "cal_gt": 5,
+      "candidates": 41,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    },
+    "53": {
+      "name": "Lissandra",
+      "cal_gt": 4,
+      "candidates": 27,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    },
+    "54": {
+      "name": "Jhin",
+      "cal_gt": 3,
+      "candidates": 24,
+      "source_groups": 3,
+      "retained_fraction": 0.75
+    },
+    "55": {
+      "name": "Dr- Mundo",
+      "cal_gt": 2,
+      "candidates": 14,
+      "source_groups": 2,
+      "retained_fraction": 1.0
+    },
+    "56": {
+      "name": "Orianna",
+      "cal_gt": 3,
+      "candidates": 20,
+      "source_groups": 2,
+      "retained_fraction": 0.6
+    },
+    "57": {
+      "name": "Shaco",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "58": {
+      "name": "Garen",
+      "cal_gt": 3,
+      "candidates": 39,
+      "source_groups": 3,
+      "retained_fraction": 1.0
+    }
+  },
+  "missing_predicted_calibration_classes": [
+    17,
+    19,
+    28,
+    34,
+    35,
+    57
+  ],
+  "thin_predicted_calibration_classes": [
+    0,
+    11,
+    12,
+    16,
+    17,
+    19,
+    23,
+    24,
+    28,
+    30,
+    34,
+    35,
+    38,
+    40,
+    46,
+    57
+  ],
+  "rare_fit_classes": [],
+  "object_threshold": 0.27378225326538086,
+  "object_threshold_fallback": false,
+  "f0_reject_shift": 1.5160962343215942,
+  "f0_shift_policy": "corrected-bank known GT Q95 clamped to zero",
+  "quantile": "numpy higher; F1 margin threshold is NOT clamped to zero; ties accepted known",
+  "population": "all original top600 cal predictions with known-shot IoU>=0.5 and unchanged parent quality gate; pooled candidate weighting",
+  "limitations": "95% is an empirical pooled known-calibration target, not a per-class or test guarantee; no source repair or reference-bank changes",
+  "test_labels_used": false,
+  "new_training_updates": 0,
+  "identity": "86e0e1369db3183a27fa2a221cb1415ff9157a1936707115da6f5ea381b194ff"
+}

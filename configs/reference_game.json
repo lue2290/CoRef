@@ -1,0 +1,19 @@
+{
+  "tag": "reference_net_v1_game_corrected_v1",
+  "scene": "Game",
+  "tasks": ["task1", "task2"],
+  "seeds": [42, 43, 44],
+  "updates": 500,
+  "save_every": 50,
+  "validate_every": 50,
+  "warmup": 25,
+  "initialization": "original pretrained PF and DINO; fresh original Reference Net modules; never old adapted parents",
+  "known_retention_target": 0.95,
+  "calibration_min_iou": 0.5,
+  "relation_batch": 600,
+  "arms": ["F0", "F1"],
+  "min_free_gib": 8,
+  "max_gpu_gib": 30,
+  "comparison_tag": "reference_net_f1_formal_v1_importfix",
+  "scope": "Game corrected-label Reference Net v1 retraining from original pretraining, fixed500 terminal; paired F0/F1 official evaluation"
+}

@@ -1,0 +1,12 @@
+{
+  "format": "reference-ablation-compact-v1",
+  "pictures_per_case": 10,
+  "include_full_controls": true,
+  "panel_width": 640,
+  "panel_height": 700,
+  "jpeg_quality": 78,
+  "max_drawn_predictions": 20,
+  "selection_salt": "ablation-comparison-v1",
+  "selection_policy": "same filename-hash sample for every variant/full control at each scene and seed; no metric or test-label selection",
+  "scope": "ZIP only: metrics, summaries, paired GT/prediction JPEGs and a small provenance manifest; original remote results preserved"
+}

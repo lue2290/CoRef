@@ -1,0 +1,123 @@
+{
+  "threshold_margin": -2.2467947006225586,
+  "threshold_probability": 0.09562630626819314,
+  "target": 0.95,
+  "empirical_known_retention": 0.9502762430939227,
+  "calibrated_candidates": 1991,
+  "calibrated_source_groups": 1,
+  "per_class": {
+    "0": {
+      "name": "distal phalanges",
+      "cal_gt": 26,
+      "candidates": 21,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "1": {
+      "name": "proximal phalanges",
+      "cal_gt": 26,
+      "candidates": 215,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "2": {
+      "name": "intermediate phalanges",
+      "cal_gt": 29,
+      "candidates": 143,
+      "source_groups": 1,
+      "retained_fraction": 1.0
+    },
+    "3": {
+      "name": "second metacarpal bone",
+      "cal_gt": 26,
+      "candidates": 397,
+      "source_groups": 1,
+      "retained_fraction": 0.9546599496221663
+    },
+    "4": {
+      "name": "third metacarpal bone",
+      "cal_gt": 25,
+      "candidates": 290,
+      "source_groups": 1,
+      "retained_fraction": 0.9137931034482759
+    },
+    "5": {
+      "name": "fifth metacarpal bone",
+      "cal_gt": 26,
+      "candidates": 217,
+      "source_groups": 1,
+      "retained_fraction": 0.9400921658986175
+    },
+    "6": {
+      "name": "first metacarpal bone",
+      "cal_gt": 26,
+      "candidates": 188,
+      "source_groups": 1,
+      "retained_fraction": 0.9787234042553191
+    },
+    "7": {
+      "name": "artefact",
+      "cal_gt": 0,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    },
+    "8": {
+      "name": "radius",
+      "cal_gt": 26,
+      "candidates": 211,
+      "source_groups": 1,
+      "retained_fraction": 0.9289099526066351
+    },
+    "9": {
+      "name": "fourth metacarpal bone",
+      "cal_gt": 26,
+      "candidates": 170,
+      "source_groups": 1,
+      "retained_fraction": 0.9
+    },
+    "10": {
+      "name": "ulna",
+      "cal_gt": 26,
+      "candidates": 139,
+      "source_groups": 1,
+      "retained_fraction": 0.9496402877697842
+    },
+    "11": {
+      "name": "soft tissue calcination",
+      "cal_gt": 14,
+      "candidates": 0,
+      "source_groups": 0,
+      "retained_fraction": null
+    }
+  },
+  "missing_predicted_calibration_classes": [
+    7,
+    11
+  ],
+  "thin_predicted_calibration_classes": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "rare_fit_classes": [],
+  "object_threshold": 0.21455639600753784,
+  "object_threshold_fallback": false,
+  "f0_reject_shift": 0.0,
+  "f0_shift_policy": "unchanged indexed parent calibration",
+  "quantile": "numpy higher; F1 margin threshold is NOT clamped to zero; ties accepted known",
+  "population": "all original top600 cal predictions with known-shot IoU>=0.5 and unchanged parent quality gate; pooled candidate weighting",
+  "limitations": "95% is an empirical pooled known-calibration target, not a per-class or test guarantee; no source repair or reference-bank changes",
+  "test_labels_used": false,
+  "new_training_updates": 0,
+  "identity": "3093b10138800e8c4480d1e0ce628e88904025bcafac5cf0aeddd7631e008eec"
+}

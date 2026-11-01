@@ -1,0 +1,914 @@
+{
+  "format": "reference-net-parents-v1",
+  "models": [
+    {
+      "id": "Aerial/task1/seed_42",
+      "scene": "Aerial",
+      "task": "task1",
+      "seed": 42,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aerial/task1",
+      "reference_manifest_sha256": "465b0682f20258aad562102b3aec4291d50fd77f688aa435944efc83296edb18",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aerial/task1.json",
+      "split_identity": "be02a76e3c6fdcf7533e5494691e453449e25d046e9bc88d500deb5e03c67552",
+      "result": "reports/reference_net/reference_net_v1/Aerial/task1/seed_42/RESULT.json",
+      "result_sha256": "0cdda7f60960ecb9f65d80eaf182d5c2daed1ee4f587140002e5360b048e9d45",
+      "lock": "runs/reference_net/reference_net_v1/Aerial/task1/seed_42/LOCK.json",
+      "lock_sha256": "361d609819e0fc315887c284a10faf22f049b42bac9fac914539671d91e51f01",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task1/seed_42/last.pt",
+        "sha256": "d2147c00f19d39b4f6fed4ba6642846abb86d54ff4dc960f79ae6d96b56ea299",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task1/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "8c3f25ae71b0fe4a1b8493b8f334a8de36e74f2e5a5e959360bae1c17bfb19b7",
+        "calibration_checkpoint_sha256": "d2147c00f19d39b4f6fed4ba6642846abb86d54ff4dc960f79ae6d96b56ea299"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task1/seed_42/best.pt",
+        "sha256": "7159535c8dce2078815361cd6acfeb66a6a9a1f5d6c540743ce568404624fd3a",
+        "step": 400,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task1/seed_42/selected/CALIBRATION.json",
+        "calibration_sha256": "cd19fde4f32ed11701e0ad9a4606c6e83629e8a3532f80df91d593fc675df501",
+        "calibration_checkpoint_sha256": "7159535c8dce2078815361cd6acfeb66a6a9a1f5d6c540743ce568404624fd3a"
+      }
+    },
+    {
+      "id": "Aerial/task1/seed_43",
+      "scene": "Aerial",
+      "task": "task1",
+      "seed": 43,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aerial/task1",
+      "reference_manifest_sha256": "465b0682f20258aad562102b3aec4291d50fd77f688aa435944efc83296edb18",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aerial/task1.json",
+      "split_identity": "be02a76e3c6fdcf7533e5494691e453449e25d046e9bc88d500deb5e03c67552",
+      "result": "reports/reference_net/reference_net_v1/Aerial/task1/seed_43/RESULT.json",
+      "result_sha256": "e371b1f1cd4bf114aada17388156a908a953c12089c2259c75f1e5834781083c",
+      "lock": "runs/reference_net/reference_net_v1/Aerial/task1/seed_43/LOCK.json",
+      "lock_sha256": "4a068456abaaf3eac7f752d75ceb8d8f0fb9161ec9123812545b1adf6025bfff",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task1/seed_43/last.pt",
+        "sha256": "a3b459b5accd3882a542182e89e3ad4176ba32117413ffd9885fba17ebb63351",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task1/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "11a01a1060a7fea5e15e4d50cee2544eb45107c5150f3a92b588967d7f9d7ebb",
+        "calibration_checkpoint_sha256": "a3b459b5accd3882a542182e89e3ad4176ba32117413ffd9885fba17ebb63351"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task1/seed_43/best.pt",
+        "sha256": "be6c36f457076d4deb0103482d1e0cc5a045620670e6e767eede2f86d69a737b",
+        "step": 350,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task1/seed_43/selected/CALIBRATION.json",
+        "calibration_sha256": "0039222221279ebd90558313d56f8685b6f9561b9832e6e83607f489425f4506",
+        "calibration_checkpoint_sha256": "be6c36f457076d4deb0103482d1e0cc5a045620670e6e767eede2f86d69a737b"
+      }
+    },
+    {
+      "id": "Aerial/task1/seed_44",
+      "scene": "Aerial",
+      "task": "task1",
+      "seed": 44,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aerial/task1",
+      "reference_manifest_sha256": "465b0682f20258aad562102b3aec4291d50fd77f688aa435944efc83296edb18",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aerial/task1.json",
+      "split_identity": "be02a76e3c6fdcf7533e5494691e453449e25d046e9bc88d500deb5e03c67552",
+      "result": "reports/reference_net/reference_net_v1/Aerial/task1/seed_44/RESULT.json",
+      "result_sha256": "8705531210790f232bc56fc424c35745caa5feba4ab5c6270d32e782ffde2da2",
+      "lock": "runs/reference_net/reference_net_v1/Aerial/task1/seed_44/LOCK.json",
+      "lock_sha256": "dc8e707c4667d5f3fec2cb93b0029adc4ceca04dfda0a97307a17976ba064323",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task1/seed_44/last.pt",
+        "sha256": "a239f5699d1cc14e472030853879ad436b9e8c793dfb28736f3a8651eb5739df",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task1/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "4ee28d589653ea126487ae4bc460524bc050626ef17bfa215efb00ab8b371025",
+        "calibration_checkpoint_sha256": "a239f5699d1cc14e472030853879ad436b9e8c793dfb28736f3a8651eb5739df"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task1/seed_44/best.pt",
+        "sha256": "fdafadaeb666a5e5f2b862fb13fafe07e788c503f6b570e38e108a7dbf354f1c",
+        "step": 300,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task1/seed_44/selected/CALIBRATION.json",
+        "calibration_sha256": "9996a4f81e7c30e6f19b6f929ba8ed2067d8023c3dd14c9741b71b9cc411fccb",
+        "calibration_checkpoint_sha256": "fdafadaeb666a5e5f2b862fb13fafe07e788c503f6b570e38e108a7dbf354f1c"
+      }
+    },
+    {
+      "id": "Aerial/task2/seed_42",
+      "scene": "Aerial",
+      "task": "task2",
+      "seed": 42,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aerial/task2",
+      "reference_manifest_sha256": "fdc0706d5eb9657abbd1d2cb0af211ea09d4a29722747784de51aa72aa3fafb0",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aerial/task2.json",
+      "split_identity": "79c1f3a1e545dd6be6500d9d2d0570d8e0f650b49297696c470ee305bf0a2174",
+      "result": "reports/reference_net/reference_net_v1/Aerial/task2/seed_42/RESULT.json",
+      "result_sha256": "23ea0319a72231b757e97c3aa30e6e6e7e2078997c9ebfbf2540657b7260fbd1",
+      "lock": "runs/reference_net/reference_net_v1/Aerial/task2/seed_42/LOCK.json",
+      "lock_sha256": "a1464c382c921d953161ca3187b1a1ec64e73f8a7552d08bdcdab5c0e64af47b",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task2/seed_42/last.pt",
+        "sha256": "fcd2c1f8d9301aad19a34599cce3e90a7ba62e6195cd0638a436db4baee9a9f2",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task2/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "d29da6c329aa42a33251fa965d1992c83cd3fada0ee81fd86b15cacb7f46ec47",
+        "calibration_checkpoint_sha256": "fcd2c1f8d9301aad19a34599cce3e90a7ba62e6195cd0638a436db4baee9a9f2"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task2/seed_42/best.pt",
+        "sha256": "cb8b64016b5bd355de8944fad616f8dc127f6fdb1cf92512da9fbee2f4eeb7be",
+        "step": 400,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task2/seed_42/selected/CALIBRATION.json",
+        "calibration_sha256": "031a8ab95bb98aed16cefd7247b64cb7fc50343f46ae6dae339d35c10b5a4d23",
+        "calibration_checkpoint_sha256": "cb8b64016b5bd355de8944fad616f8dc127f6fdb1cf92512da9fbee2f4eeb7be"
+      }
+    },
+    {
+      "id": "Aerial/task2/seed_43",
+      "scene": "Aerial",
+      "task": "task2",
+      "seed": 43,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aerial/task2",
+      "reference_manifest_sha256": "fdc0706d5eb9657abbd1d2cb0af211ea09d4a29722747784de51aa72aa3fafb0",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aerial/task2.json",
+      "split_identity": "79c1f3a1e545dd6be6500d9d2d0570d8e0f650b49297696c470ee305bf0a2174",
+      "result": "reports/reference_net/reference_net_v1/Aerial/task2/seed_43/RESULT.json",
+      "result_sha256": "80ebd877b76cd5b04b78bf4aca4b88729265c4af601ddcc281ed11a6fa32cb1b",
+      "lock": "runs/reference_net/reference_net_v1/Aerial/task2/seed_43/LOCK.json",
+      "lock_sha256": "ee9bcad03a39571f19801d449e766039f6d3930a3766901a657ac9c9a1a9f85f",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task2/seed_43/last.pt",
+        "sha256": "b2e8d83a604e80c725df19050b65b2638d3ab2f9b2de2ab4d5d6eef8dd41610f",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task2/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "f97a80ea87e375a8e5edb9647b010320b4029b160f63397597e5ea4a01a6182c",
+        "calibration_checkpoint_sha256": "b2e8d83a604e80c725df19050b65b2638d3ab2f9b2de2ab4d5d6eef8dd41610f"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task2/seed_43/best.pt",
+        "sha256": "ff67bbc79efc9e7ac9e9f438509f45ff8ffbf7f7bc513f97fb1b3be7bdc3b5eb",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task2/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "f97a80ea87e375a8e5edb9647b010320b4029b160f63397597e5ea4a01a6182c",
+        "calibration_checkpoint_sha256": "b2e8d83a604e80c725df19050b65b2638d3ab2f9b2de2ab4d5d6eef8dd41610f"
+      }
+    },
+    {
+      "id": "Aerial/task2/seed_44",
+      "scene": "Aerial",
+      "task": "task2",
+      "seed": 44,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aerial/task2",
+      "reference_manifest_sha256": "fdc0706d5eb9657abbd1d2cb0af211ea09d4a29722747784de51aa72aa3fafb0",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aerial/task2.json",
+      "split_identity": "79c1f3a1e545dd6be6500d9d2d0570d8e0f650b49297696c470ee305bf0a2174",
+      "result": "reports/reference_net/reference_net_v1/Aerial/task2/seed_44/RESULT.json",
+      "result_sha256": "9a90e1e7bab7e98ee4557a2ffaf8d3c46e15025dab3e687f6aa688c1bdca24fb",
+      "lock": "runs/reference_net/reference_net_v1/Aerial/task2/seed_44/LOCK.json",
+      "lock_sha256": "43c94bd4ac29d9f3480dee9a40a0bd7da4c26078e1a53a380fad53f32746ba1c",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task2/seed_44/last.pt",
+        "sha256": "e0b7cdb8a1b474a1f8067e264b2c69cdc85f14bb725c930651987a78aadbd4e2",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task2/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "d4fe406b384fdad886305f82ce344c72b35e11415a76bc8d93f0a0cc4eaadb76",
+        "calibration_checkpoint_sha256": "e0b7cdb8a1b474a1f8067e264b2c69cdc85f14bb725c930651987a78aadbd4e2"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aerial/task2/seed_44/best.pt",
+        "sha256": "7594d5115ec6b211c37aa4f915f88555e73bd2bc912db210ad03945ce60f1e49",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aerial/task2/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "d4fe406b384fdad886305f82ce344c72b35e11415a76bc8d93f0a0cc4eaadb76",
+        "calibration_checkpoint_sha256": "e0b7cdb8a1b474a1f8067e264b2c69cdc85f14bb725c930651987a78aadbd4e2"
+      }
+    },
+    {
+      "id": "Aquatic/task1/seed_42",
+      "scene": "Aquatic",
+      "task": "task1",
+      "seed": 42,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aquatic/task1",
+      "reference_manifest_sha256": "2205a86049cf4f040fd0428e4cf4fc1de49a46195f9269db6f7320411ea71d5c",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aquatic/task1.json",
+      "split_identity": "280784dc7ade5eaca92cc309c4e30d1a1c7c33f7076932ad4f731fea02495328",
+      "result": "reports/reference_net/reference_net_v1/Aquatic/task1/seed_42/RESULT.json",
+      "result_sha256": "462e0fb6607c9751ba45d33ab79bac121447ff87ac3bfbd29c732ba0f0f24fc0",
+      "lock": "runs/reference_net/reference_net_v1/Aquatic/task1/seed_42/LOCK.json",
+      "lock_sha256": "6646b665696fa538e668af40a8edb1a458f8cd647dd6ea65d8a58f4647206b00",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task1/seed_42/last.pt",
+        "sha256": "a5645291aa1fc4c150517aac313377c8ef947275b116afca73f1b7fe2ed98f1e",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task1/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "2bc05ea1c31637028490ece68f17b3a45ab20df0b8a1dd03d5140d601fa1490f",
+        "calibration_checkpoint_sha256": "a5645291aa1fc4c150517aac313377c8ef947275b116afca73f1b7fe2ed98f1e"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task1/seed_42/best.pt",
+        "sha256": "e219541c176819e497ab8306a96255bbe71a823c3585abb9ec9b72b6c1d8b006",
+        "step": 300,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task1/seed_42/selected/CALIBRATION.json",
+        "calibration_sha256": "e85df809592196e8dc3e43cd8dcd1af051a7f5d53203e88582c9fa085e489431",
+        "calibration_checkpoint_sha256": "e219541c176819e497ab8306a96255bbe71a823c3585abb9ec9b72b6c1d8b006"
+      }
+    },
+    {
+      "id": "Aquatic/task1/seed_43",
+      "scene": "Aquatic",
+      "task": "task1",
+      "seed": 43,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aquatic/task1",
+      "reference_manifest_sha256": "2205a86049cf4f040fd0428e4cf4fc1de49a46195f9269db6f7320411ea71d5c",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aquatic/task1.json",
+      "split_identity": "280784dc7ade5eaca92cc309c4e30d1a1c7c33f7076932ad4f731fea02495328",
+      "result": "reports/reference_net/reference_net_v1/Aquatic/task1/seed_43/RESULT.json",
+      "result_sha256": "845f6c4ba13babeb69961785ed61222a0a74917c900a8d8a56804020748bb259",
+      "lock": "runs/reference_net/reference_net_v1/Aquatic/task1/seed_43/LOCK.json",
+      "lock_sha256": "7a90b09513aaba0c63755dbb1e92cf2af69652c143b1a91a20fc2b13d56ae96b",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task1/seed_43/last.pt",
+        "sha256": "45fd8e2d7c31e34b7af1c5c629cf6dc2755e1235a1714389b69b20bdd45bc587",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task1/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "3153f837a260bcd8669a0904f2af0f4799e3e6f6cebb01a920aff6091d7aa130",
+        "calibration_checkpoint_sha256": "45fd8e2d7c31e34b7af1c5c629cf6dc2755e1235a1714389b69b20bdd45bc587"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task1/seed_43/best.pt",
+        "sha256": "6284a39242ab3217b2094541e7b201c1f5a895169e2d677bbea6fcc8320dc866",
+        "step": 300,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task1/seed_43/selected/CALIBRATION.json",
+        "calibration_sha256": "0097efe8962998084ad78d2c626b2ebfd21c62ea8c383b22db7712171ee02029",
+        "calibration_checkpoint_sha256": "6284a39242ab3217b2094541e7b201c1f5a895169e2d677bbea6fcc8320dc866"
+      }
+    },
+    {
+      "id": "Aquatic/task1/seed_44",
+      "scene": "Aquatic",
+      "task": "task1",
+      "seed": 44,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aquatic/task1",
+      "reference_manifest_sha256": "2205a86049cf4f040fd0428e4cf4fc1de49a46195f9269db6f7320411ea71d5c",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aquatic/task1.json",
+      "split_identity": "280784dc7ade5eaca92cc309c4e30d1a1c7c33f7076932ad4f731fea02495328",
+      "result": "reports/reference_net/reference_net_v1/Aquatic/task1/seed_44/RESULT.json",
+      "result_sha256": "fa88d5aaab7605ccba6f227a16f4099c3f900083d2529c05d3de5aeb931c8192",
+      "lock": "runs/reference_net/reference_net_v1/Aquatic/task1/seed_44/LOCK.json",
+      "lock_sha256": "f44d38a1bf06708277452029afa1038ecd2cdfae0c2cefbdb17d30d28e200e76",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task1/seed_44/last.pt",
+        "sha256": "7156268df21df4c6ed9d87e7d374374cac1300ea079c9fbc116d7d11640c598e",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task1/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "f6baf052393ebb92fabac0cdc8c86deec206ee1fbc1549d95770cba9e6ac49d7",
+        "calibration_checkpoint_sha256": "7156268df21df4c6ed9d87e7d374374cac1300ea079c9fbc116d7d11640c598e"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task1/seed_44/best.pt",
+        "sha256": "36d49038b32d8e1b22ccd372657dc3a02343bcc76dbb8597bd56f983df05e3ee",
+        "step": 300,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task1/seed_44/selected/CALIBRATION.json",
+        "calibration_sha256": "24da013b77433e2f9853a03ab00c7aec67fa76d4dd9c6403fed421ac585439ca",
+        "calibration_checkpoint_sha256": "36d49038b32d8e1b22ccd372657dc3a02343bcc76dbb8597bd56f983df05e3ee"
+      }
+    },
+    {
+      "id": "Aquatic/task2/seed_42",
+      "scene": "Aquatic",
+      "task": "task2",
+      "seed": 42,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aquatic/task2",
+      "reference_manifest_sha256": "9e903984042172667aabaacd2535007b6ceb52a948ae4b79e625097401f825bb",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aquatic/task2.json",
+      "split_identity": "29e8a25627c23c7c33ea8a4cfeb075e8f17e3a9d8678fb39cbc58e4c3556c37b",
+      "result": "reports/reference_net/reference_net_v1/Aquatic/task2/seed_42/RESULT.json",
+      "result_sha256": "2a709f92e591263ca3a048a21522ce896176258bbe1b3cf22f0456e71e1aa9ae",
+      "lock": "runs/reference_net/reference_net_v1/Aquatic/task2/seed_42/LOCK.json",
+      "lock_sha256": "7e55edc885638076ba9a52880ed9675ec7db964eb638c312182dd54e56e8f98b",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task2/seed_42/last.pt",
+        "sha256": "01e2b4efa4a8a628cfa26cb6f13f8e279d9c1fdaebdfd05c252a5290da216e13",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task2/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "c563894acab32416c0e1a4cf1f9cff431fd34d30f738f7cf2316438b83d23af5",
+        "calibration_checkpoint_sha256": "01e2b4efa4a8a628cfa26cb6f13f8e279d9c1fdaebdfd05c252a5290da216e13"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task2/seed_42/best.pt",
+        "sha256": "63cb8573e54681afa7b596f182b09577c00bcb372283e42ba4d1eba23489d27f",
+        "step": 350,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task2/seed_42/selected/CALIBRATION.json",
+        "calibration_sha256": "a076a82d07df27fd334bb3da15b252ba60d397922bdfececb69d6bfa9a1552fd",
+        "calibration_checkpoint_sha256": "63cb8573e54681afa7b596f182b09577c00bcb372283e42ba4d1eba23489d27f"
+      }
+    },
+    {
+      "id": "Aquatic/task2/seed_43",
+      "scene": "Aquatic",
+      "task": "task2",
+      "seed": 43,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aquatic/task2",
+      "reference_manifest_sha256": "9e903984042172667aabaacd2535007b6ceb52a948ae4b79e625097401f825bb",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aquatic/task2.json",
+      "split_identity": "29e8a25627c23c7c33ea8a4cfeb075e8f17e3a9d8678fb39cbc58e4c3556c37b",
+      "result": "reports/reference_net/reference_net_v1/Aquatic/task2/seed_43/RESULT.json",
+      "result_sha256": "0bc18b29c62939324304bb5961192902ad53cdbf9a167ee8d17e2a94da53e648",
+      "lock": "runs/reference_net/reference_net_v1/Aquatic/task2/seed_43/LOCK.json",
+      "lock_sha256": "2673e9fe038fe4c2778009777f879d30c89fd6ec3e1c3721051e4357a5365122",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task2/seed_43/last.pt",
+        "sha256": "286d9bd81c8ceadf996ce8ee620b9920a254a6dafb22520097a19bf719ee3875",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task2/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "62096eb5fc1333df06bd948fa30ac63f1e731bd5fc539124b8673722f02ce873",
+        "calibration_checkpoint_sha256": "286d9bd81c8ceadf996ce8ee620b9920a254a6dafb22520097a19bf719ee3875"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task2/seed_43/best.pt",
+        "sha256": "72458a956f11f0b3e59df2713cbf445c9e46cf5387a6249d68e72dd047956372",
+        "step": 400,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task2/seed_43/selected/CALIBRATION.json",
+        "calibration_sha256": "4e8130c9618cc2a4995a815e74ad3ca1812e553fc2a3d4a2b9c7a2a6ec500b32",
+        "calibration_checkpoint_sha256": "72458a956f11f0b3e59df2713cbf445c9e46cf5387a6249d68e72dd047956372"
+      }
+    },
+    {
+      "id": "Aquatic/task2/seed_44",
+      "scene": "Aquatic",
+      "task": "task2",
+      "seed": 44,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Aquatic/task2",
+      "reference_manifest_sha256": "9e903984042172667aabaacd2535007b6ceb52a948ae4b79e625097401f825bb",
+      "split": "prepared/reference_net/reference_net_v1/splits/Aquatic/task2.json",
+      "split_identity": "29e8a25627c23c7c33ea8a4cfeb075e8f17e3a9d8678fb39cbc58e4c3556c37b",
+      "result": "reports/reference_net/reference_net_v1/Aquatic/task2/seed_44/RESULT.json",
+      "result_sha256": "4d4917c9034264682799c45168248702cd477085841db63bd2b2a57acc1c677f",
+      "lock": "runs/reference_net/reference_net_v1/Aquatic/task2/seed_44/LOCK.json",
+      "lock_sha256": "ea1a4f26b07387b6a1ce58279d4afe6eab2f627e179731d7d0a72e238a3da84a",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task2/seed_44/last.pt",
+        "sha256": "0b152705ad1c3ec3854c575e88bcad2e55dadd4df69839d3274504f83df84728",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task2/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "e0797ce5368c3d5dfc6099b587c50d0ba1c87d9740cab22761c7ccc0210e9c22",
+        "calibration_checkpoint_sha256": "0b152705ad1c3ec3854c575e88bcad2e55dadd4df69839d3274504f83df84728"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Aquatic/task2/seed_44/best.pt",
+        "sha256": "eb3b46a01da0c2fca2890f12db3953c2ce875a2d95eeada43dfcabde1ba2611e",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Aquatic/task2/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "e0797ce5368c3d5dfc6099b587c50d0ba1c87d9740cab22761c7ccc0210e9c22",
+        "calibration_checkpoint_sha256": "0b152705ad1c3ec3854c575e88bcad2e55dadd4df69839d3274504f83df84728"
+      }
+    },
+    {
+      "id": "Game/task1/seed_42",
+      "scene": "Game",
+      "task": "task1",
+      "seed": 42,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Game/task1",
+      "reference_manifest_sha256": "27fb6367c7ebfff9a6c0cff2d2884148672d62a34a1b901b8b5918c5f2313d4d",
+      "split": "prepared/reference_net/reference_net_v1/splits/Game/task1.json",
+      "split_identity": "885c9a193e8742788691ed4004f60357e4be90bcdb986c3aa358a561cd3f3a27",
+      "result": "reports/reference_net/reference_net_v1/Game/task1/seed_42/RESULT.json",
+      "result_sha256": "cab35e09437f52d76f21b3057e88dfb7ef9664a2ac74c7906638fa864024b35f",
+      "lock": "runs/reference_net/reference_net_v1/Game/task1/seed_42/LOCK.json",
+      "lock_sha256": "cb31267cef5e5b78d3a47c01a2d12587488cade48c016e5c01dc7dc0f510b28b",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task1/seed_42/last.pt",
+        "sha256": "871ba8e373a60da085329db8679500b4256d7134c0f243f3dff04257b4ca8c1b",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task1/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "01b89f482ac7eb3a7ac646c997c892af913557640e6026e90361d0001ab2ed44",
+        "calibration_checkpoint_sha256": "871ba8e373a60da085329db8679500b4256d7134c0f243f3dff04257b4ca8c1b"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task1/seed_42/best.pt",
+        "sha256": "d6ae7bb26ce9c081ea96b0c5ca85dbaa084d19ac196e05451a2d43c5618269ef",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task1/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "01b89f482ac7eb3a7ac646c997c892af913557640e6026e90361d0001ab2ed44",
+        "calibration_checkpoint_sha256": "871ba8e373a60da085329db8679500b4256d7134c0f243f3dff04257b4ca8c1b"
+      }
+    },
+    {
+      "id": "Game/task1/seed_43",
+      "scene": "Game",
+      "task": "task1",
+      "seed": 43,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Game/task1",
+      "reference_manifest_sha256": "27fb6367c7ebfff9a6c0cff2d2884148672d62a34a1b901b8b5918c5f2313d4d",
+      "split": "prepared/reference_net/reference_net_v1/splits/Game/task1.json",
+      "split_identity": "885c9a193e8742788691ed4004f60357e4be90bcdb986c3aa358a561cd3f3a27",
+      "result": "reports/reference_net/reference_net_v1/Game/task1/seed_43/RESULT.json",
+      "result_sha256": "dad7a6e47dd14e88f1a74a354d1b3a3b20dc2731f97251f621e4c3e9f7d66c4d",
+      "lock": "runs/reference_net/reference_net_v1/Game/task1/seed_43/LOCK.json",
+      "lock_sha256": "e0bfb68be05dfab16cd4053512798a664bad7d49d73fe699f4ec0b2256d720fb",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task1/seed_43/last.pt",
+        "sha256": "be6f7450448e4136f4392758d939e5fff53f9e6e0fa15df1df5e85685cc6a206",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task1/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "c0b33079d21bd6a5810c7fc00d1ca4482fcad08dc22281c1dc772ca7621d1d21",
+        "calibration_checkpoint_sha256": "be6f7450448e4136f4392758d939e5fff53f9e6e0fa15df1df5e85685cc6a206"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task1/seed_43/best.pt",
+        "sha256": "284103b8f0a4c393f9cd03141900243edc110ae1e60fecc27dbc45fa3afd81d4",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task1/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "c0b33079d21bd6a5810c7fc00d1ca4482fcad08dc22281c1dc772ca7621d1d21",
+        "calibration_checkpoint_sha256": "be6f7450448e4136f4392758d939e5fff53f9e6e0fa15df1df5e85685cc6a206"
+      }
+    },
+    {
+      "id": "Game/task1/seed_44",
+      "scene": "Game",
+      "task": "task1",
+      "seed": 44,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Game/task1",
+      "reference_manifest_sha256": "27fb6367c7ebfff9a6c0cff2d2884148672d62a34a1b901b8b5918c5f2313d4d",
+      "split": "prepared/reference_net/reference_net_v1/splits/Game/task1.json",
+      "split_identity": "885c9a193e8742788691ed4004f60357e4be90bcdb986c3aa358a561cd3f3a27",
+      "result": "reports/reference_net/reference_net_v1/Game/task1/seed_44/RESULT.json",
+      "result_sha256": "4b9015eb18d0c0c13d61dfb603bebc1106593cf0c3d8e22e27cc634c6017de6d",
+      "lock": "runs/reference_net/reference_net_v1/Game/task1/seed_44/LOCK.json",
+      "lock_sha256": "dcc6851638d17b7318cded779906185d3f1c023b04c78a1a6765020517683104",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task1/seed_44/last.pt",
+        "sha256": "63ac4e3f04064a4e5aa2d8399817619de89ca4805f79e4837a35d0d1c9c8f85a",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task1/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "a251d0b0759e9daaa792d8778389f9132e9cfce807e47fc13e75c0fec5fbb186",
+        "calibration_checkpoint_sha256": "63ac4e3f04064a4e5aa2d8399817619de89ca4805f79e4837a35d0d1c9c8f85a"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task1/seed_44/best.pt",
+        "sha256": "9ab0f165382ae631baf17e90e7d20642652bc5980015bfd8889cfc41138376c4",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task1/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "a251d0b0759e9daaa792d8778389f9132e9cfce807e47fc13e75c0fec5fbb186",
+        "calibration_checkpoint_sha256": "63ac4e3f04064a4e5aa2d8399817619de89ca4805f79e4837a35d0d1c9c8f85a"
+      }
+    },
+    {
+      "id": "Game/task2/seed_42",
+      "scene": "Game",
+      "task": "task2",
+      "seed": 42,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Game/task2",
+      "reference_manifest_sha256": "abeacaf5d65424acbe0597c8c8dc64667afa63011d1d7967a6e62344e1edac4e",
+      "split": "prepared/reference_net/reference_net_v1/splits/Game/task2.json",
+      "split_identity": "8832281253299308520284a3cc064c4e314da5b03666be6ee2ebe1962863e810",
+      "result": "reports/reference_net/reference_net_v1/Game/task2/seed_42/RESULT.json",
+      "result_sha256": "d5e65d58f1f3739b2814694b904b3da46fb1a5c36230bd755273b34301a5a8f7",
+      "lock": "runs/reference_net/reference_net_v1/Game/task2/seed_42/LOCK.json",
+      "lock_sha256": "bdb8f8b42dd705c15398fa557e5f84d4171c9aee3bbb96e31b191cdf3bd40fb6",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task2/seed_42/last.pt",
+        "sha256": "3d0ca2073cb6f6cdbecb3874805e035d3a0482efd47cc2b842c1d982f680d1d7",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task2/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "e44c98b5b763b2e4766dced3fb66929b88930f57bc76e9a549a057c3a8c00998",
+        "calibration_checkpoint_sha256": "3d0ca2073cb6f6cdbecb3874805e035d3a0482efd47cc2b842c1d982f680d1d7"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task2/seed_42/best.pt",
+        "sha256": "bb0a6499a28cabebe760cd64a3e5155c424097e0ebd38db45322494846c31eca",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task2/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "e44c98b5b763b2e4766dced3fb66929b88930f57bc76e9a549a057c3a8c00998",
+        "calibration_checkpoint_sha256": "3d0ca2073cb6f6cdbecb3874805e035d3a0482efd47cc2b842c1d982f680d1d7"
+      }
+    },
+    {
+      "id": "Game/task2/seed_43",
+      "scene": "Game",
+      "task": "task2",
+      "seed": 43,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Game/task2",
+      "reference_manifest_sha256": "abeacaf5d65424acbe0597c8c8dc64667afa63011d1d7967a6e62344e1edac4e",
+      "split": "prepared/reference_net/reference_net_v1/splits/Game/task2.json",
+      "split_identity": "8832281253299308520284a3cc064c4e314da5b03666be6ee2ebe1962863e810",
+      "result": "reports/reference_net/reference_net_v1/Game/task2/seed_43/RESULT.json",
+      "result_sha256": "376384f974382940ec42d85a1aeaeb3f6a33952d6b8f40afe338e192428b4da1",
+      "lock": "runs/reference_net/reference_net_v1/Game/task2/seed_43/LOCK.json",
+      "lock_sha256": "a611a15e7fed64b89fb3350bc09b1aec5a16ef8dd2de7b364887975c85c13401",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task2/seed_43/last.pt",
+        "sha256": "e9a16f2633ff78d966e9d9d1df1f6977f29fc6bdab81bb8264b90f8ba3c5c00f",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task2/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "405448bf9963fa6e39fe88b23bf55dd11d6658ae5d7cd5b7a02cbddc0a7034bd",
+        "calibration_checkpoint_sha256": "e9a16f2633ff78d966e9d9d1df1f6977f29fc6bdab81bb8264b90f8ba3c5c00f"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task2/seed_43/best.pt",
+        "sha256": "1a985b4036d5859a6e843799f2e45ce55148af82411615282ff037c1b05a2486",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task2/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "405448bf9963fa6e39fe88b23bf55dd11d6658ae5d7cd5b7a02cbddc0a7034bd",
+        "calibration_checkpoint_sha256": "e9a16f2633ff78d966e9d9d1df1f6977f29fc6bdab81bb8264b90f8ba3c5c00f"
+      }
+    },
+    {
+      "id": "Game/task2/seed_44",
+      "scene": "Game",
+      "task": "task2",
+      "seed": 44,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Game/task2",
+      "reference_manifest_sha256": "abeacaf5d65424acbe0597c8c8dc64667afa63011d1d7967a6e62344e1edac4e",
+      "split": "prepared/reference_net/reference_net_v1/splits/Game/task2.json",
+      "split_identity": "8832281253299308520284a3cc064c4e314da5b03666be6ee2ebe1962863e810",
+      "result": "reports/reference_net/reference_net_v1/Game/task2/seed_44/RESULT.json",
+      "result_sha256": "f6a8a9143ffa9291b0661aacdafe41ccbf4973bda0f88dda6da16f18601481f8",
+      "lock": "runs/reference_net/reference_net_v1/Game/task2/seed_44/LOCK.json",
+      "lock_sha256": "050dace37c4a7560eea8fb3ff25e6bb1a1338c4dba5ff4f07e697b3979ee475b",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task2/seed_44/last.pt",
+        "sha256": "37d1e81c196275456aa35c0dd368cfdd0e48f80bec03e642fd21af2795501fb1",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task2/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "e040fe4e7bd8d4475a71cabec461450842d53f47679839e1998b32af4382d439",
+        "calibration_checkpoint_sha256": "37d1e81c196275456aa35c0dd368cfdd0e48f80bec03e642fd21af2795501fb1"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Game/task2/seed_44/best.pt",
+        "sha256": "05a8265ecbbbf9f944b83c808f866cd505f76b7376ef926146009e9f7c597f59",
+        "step": 450,
+        "calibration": "reports/reference_net/reference_net_v1/Game/task2/seed_44/selected/CALIBRATION.json",
+        "calibration_sha256": "227757f66f0cda51934d92729db776675b1985978e2d24eab46b10149f7f5703",
+        "calibration_checkpoint_sha256": "05a8265ecbbbf9f944b83c808f866cd505f76b7376ef926146009e9f7c597f59"
+      }
+    },
+    {
+      "id": "Medical/task1/seed_42",
+      "scene": "Medical",
+      "task": "task1",
+      "seed": 42,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Medical/task1",
+      "reference_manifest_sha256": "3400b37a015b43a91545652f755a98499bbad2695d897aa77c45d08f66d16918",
+      "split": "prepared/reference_net/reference_net_v1/splits/Medical/task1.json",
+      "split_identity": "fff140e3c4dc89bfbdad84d947871b8527dda488241d79e6c9fcc13abb213346",
+      "result": "reports/reference_net/reference_net_v1/Medical/task1/seed_42/RESULT.json",
+      "result_sha256": "41166cf8d9f16c83aedcc2b7cb3853d6d74ab6e688b49b9103c58c92cfe61a5f",
+      "lock": "runs/reference_net/reference_net_v1/Medical/task1/seed_42/LOCK.json",
+      "lock_sha256": "9616fcb9e12e898742a3d018529b73b95852ae6457532766780cf18d8207b5d2",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task1/seed_42/last.pt",
+        "sha256": "fd066346fc376b228d86c3f4faf0c80ac03bae8e5700101a6bffdf828200c83d",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task1/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "5bd0d374c44dd3a2eb609218aac8aab1219e425caf95800f1becd0776d02a502",
+        "calibration_checkpoint_sha256": "fd066346fc376b228d86c3f4faf0c80ac03bae8e5700101a6bffdf828200c83d"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task1/seed_42/best.pt",
+        "sha256": "a2b1b4e1ed7d3ec29475d4014886a726bf185b6b266ac316a5cc1d97b8fe02db",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task1/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "5bd0d374c44dd3a2eb609218aac8aab1219e425caf95800f1becd0776d02a502",
+        "calibration_checkpoint_sha256": "fd066346fc376b228d86c3f4faf0c80ac03bae8e5700101a6bffdf828200c83d"
+      }
+    },
+    {
+      "id": "Medical/task1/seed_43",
+      "scene": "Medical",
+      "task": "task1",
+      "seed": 43,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Medical/task1",
+      "reference_manifest_sha256": "3400b37a015b43a91545652f755a98499bbad2695d897aa77c45d08f66d16918",
+      "split": "prepared/reference_net/reference_net_v1/splits/Medical/task1.json",
+      "split_identity": "fff140e3c4dc89bfbdad84d947871b8527dda488241d79e6c9fcc13abb213346",
+      "result": "reports/reference_net/reference_net_v1/Medical/task1/seed_43/RESULT.json",
+      "result_sha256": "ddf2e5146349d899660e907db32e561e842e83f102c2fd029104f75c96bc3b05",
+      "lock": "runs/reference_net/reference_net_v1/Medical/task1/seed_43/LOCK.json",
+      "lock_sha256": "211872aa422d7742d4ec114655c5612a0148eeb14699b317b75e004562983ac8",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task1/seed_43/last.pt",
+        "sha256": "5318b217bcd931188c241aa5a97725a779d21e616b9cbffa769454a971e9b4bc",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task1/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "07a2147978fe4cc8e4dec53de73bdc4a0bb71eb379eb17a734bfba3fd40b8e4f",
+        "calibration_checkpoint_sha256": "5318b217bcd931188c241aa5a97725a779d21e616b9cbffa769454a971e9b4bc"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task1/seed_43/best.pt",
+        "sha256": "c129d3cef13792f35f861513a02b375d5cec18c4ff056f2e5f87ab0a3641484c",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task1/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "07a2147978fe4cc8e4dec53de73bdc4a0bb71eb379eb17a734bfba3fd40b8e4f",
+        "calibration_checkpoint_sha256": "5318b217bcd931188c241aa5a97725a779d21e616b9cbffa769454a971e9b4bc"
+      }
+    },
+    {
+      "id": "Medical/task1/seed_44",
+      "scene": "Medical",
+      "task": "task1",
+      "seed": 44,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Medical/task1",
+      "reference_manifest_sha256": "3400b37a015b43a91545652f755a98499bbad2695d897aa77c45d08f66d16918",
+      "split": "prepared/reference_net/reference_net_v1/splits/Medical/task1.json",
+      "split_identity": "fff140e3c4dc89bfbdad84d947871b8527dda488241d79e6c9fcc13abb213346",
+      "result": "reports/reference_net/reference_net_v1/Medical/task1/seed_44/RESULT.json",
+      "result_sha256": "791d40ddf685bf35088d738b57de06cc70354d0c0a79b71c67fac9e192369e13",
+      "lock": "runs/reference_net/reference_net_v1/Medical/task1/seed_44/LOCK.json",
+      "lock_sha256": "7fc06681c27b399ba1867fa54f8f31b81257415ed75741e68f27fb814ebe7098",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task1/seed_44/last.pt",
+        "sha256": "4acbe4fdd69a054ed063a7ddeca241b0b0a27b1e1972dc315791f5fd25a6b595",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task1/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "db86ea9733518cb7da894f9483d35d00ee94475257359fd0ee54332749d52874",
+        "calibration_checkpoint_sha256": "4acbe4fdd69a054ed063a7ddeca241b0b0a27b1e1972dc315791f5fd25a6b595"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task1/seed_44/best.pt",
+        "sha256": "8f510c7fc33a8de1f2f80e55445d0654081bddfbf393fc708b431d286b7efcf9",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task1/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "db86ea9733518cb7da894f9483d35d00ee94475257359fd0ee54332749d52874",
+        "calibration_checkpoint_sha256": "4acbe4fdd69a054ed063a7ddeca241b0b0a27b1e1972dc315791f5fd25a6b595"
+      }
+    },
+    {
+      "id": "Medical/task2/seed_42",
+      "scene": "Medical",
+      "task": "task2",
+      "seed": 42,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Medical/task2",
+      "reference_manifest_sha256": "766ac9fd0001d1c05591f9edc0a825bf8eba2d5a484dbaf1beeb8752436c7e1a",
+      "split": "prepared/reference_net/reference_net_v1/splits/Medical/task2.json",
+      "split_identity": "e287c109d8e13a1c10224786eb67e775213a134ffedb72f8936287742a582c0a",
+      "result": "reports/reference_net/reference_net_v1/Medical/task2/seed_42/RESULT.json",
+      "result_sha256": "888eaf0825f840083a3bed36c463a248094c9b68bb1e4dadc079c0984446d8bc",
+      "lock": "runs/reference_net/reference_net_v1/Medical/task2/seed_42/LOCK.json",
+      "lock_sha256": "a0db017ef83cdb6331edb550c5e13fcefc35d55e09a9b1e3d53b3f726a39d729",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task2/seed_42/last.pt",
+        "sha256": "63b93e2bd6fbbd26ec606c5a596e6f4c049a3b391b67e99deae62cd1980ffcbe",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task2/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "632cc282816f935048f36b567baa59deeed7fb80efad0780e024392ca9295512",
+        "calibration_checkpoint_sha256": "63b93e2bd6fbbd26ec606c5a596e6f4c049a3b391b67e99deae62cd1980ffcbe"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task2/seed_42/best.pt",
+        "sha256": "5fc052733e8dd0dcecf1749dafe1967adb498fced66164a274d035f28c22b11f",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task2/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "632cc282816f935048f36b567baa59deeed7fb80efad0780e024392ca9295512",
+        "calibration_checkpoint_sha256": "63b93e2bd6fbbd26ec606c5a596e6f4c049a3b391b67e99deae62cd1980ffcbe"
+      }
+    },
+    {
+      "id": "Medical/task2/seed_43",
+      "scene": "Medical",
+      "task": "task2",
+      "seed": 43,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Medical/task2",
+      "reference_manifest_sha256": "766ac9fd0001d1c05591f9edc0a825bf8eba2d5a484dbaf1beeb8752436c7e1a",
+      "split": "prepared/reference_net/reference_net_v1/splits/Medical/task2.json",
+      "split_identity": "e287c109d8e13a1c10224786eb67e775213a134ffedb72f8936287742a582c0a",
+      "result": "reports/reference_net/reference_net_v1/Medical/task2/seed_43/RESULT.json",
+      "result_sha256": "d2f0cc2d92d8085eeb3ce1ea5cf570594db473a300780d2978b8ffd833c4b92a",
+      "lock": "runs/reference_net/reference_net_v1/Medical/task2/seed_43/LOCK.json",
+      "lock_sha256": "4bc6ba0fd4874737ec0f4f8c94cb2a3119e22cef6924cdec7143e1c5fb376de5",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task2/seed_43/last.pt",
+        "sha256": "52a45bd65ae4548930e6e171e78c112c69de83be68c7d4a893240a7449cdbcb0",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task2/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "2f99038f62ab5a4cc2fc537a67179fd9b522a1266d73ec5501d6b6a5856b68cf",
+        "calibration_checkpoint_sha256": "52a45bd65ae4548930e6e171e78c112c69de83be68c7d4a893240a7449cdbcb0"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task2/seed_43/best.pt",
+        "sha256": "ddfb4e047d9fb900d9e240848743bbb1d93bc0f2c630b80ddd6fd3cc77267f63",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task2/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "2f99038f62ab5a4cc2fc537a67179fd9b522a1266d73ec5501d6b6a5856b68cf",
+        "calibration_checkpoint_sha256": "52a45bd65ae4548930e6e171e78c112c69de83be68c7d4a893240a7449cdbcb0"
+      }
+    },
+    {
+      "id": "Medical/task2/seed_44",
+      "scene": "Medical",
+      "task": "task2",
+      "seed": 44,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Medical/task2",
+      "reference_manifest_sha256": "766ac9fd0001d1c05591f9edc0a825bf8eba2d5a484dbaf1beeb8752436c7e1a",
+      "split": "prepared/reference_net/reference_net_v1/splits/Medical/task2.json",
+      "split_identity": "e287c109d8e13a1c10224786eb67e775213a134ffedb72f8936287742a582c0a",
+      "result": "reports/reference_net/reference_net_v1/Medical/task2/seed_44/RESULT.json",
+      "result_sha256": "6f4ae119a8c36e862f9edbe2453b9b716ec059e2b15434c3f1509ddda8f6e2d3",
+      "lock": "runs/reference_net/reference_net_v1/Medical/task2/seed_44/LOCK.json",
+      "lock_sha256": "7f4366db37ff1f757a735ae566d36e707d5a9d1d256129a5acd936538020aadf",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task2/seed_44/last.pt",
+        "sha256": "525c98ab0562926fa1d49f12a2b6f48f7f6475959b8a517c0f80aa772860f0a8",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task2/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "eb55b3a530a18ede775d257368ae1fd18c68125e287af33ee9c5d4bf16f023d7",
+        "calibration_checkpoint_sha256": "525c98ab0562926fa1d49f12a2b6f48f7f6475959b8a517c0f80aa772860f0a8"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Medical/task2/seed_44/best.pt",
+        "sha256": "fd17215e82531e8b9a99f0866d559680c51ab682053a394d3a3725c678b0d258",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Medical/task2/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "eb55b3a530a18ede775d257368ae1fd18c68125e287af33ee9c5d4bf16f023d7",
+        "calibration_checkpoint_sha256": "525c98ab0562926fa1d49f12a2b6f48f7f6475959b8a517c0f80aa772860f0a8"
+      }
+    },
+    {
+      "id": "Surgical/task1/seed_42",
+      "scene": "Surgical",
+      "task": "task1",
+      "seed": 42,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Surgical/task1",
+      "reference_manifest_sha256": "e2fa62a91cda4ea97f8bdd1779185d280f6084c694d64245efc4b102d5ee8e46",
+      "split": "prepared/reference_net/reference_net_v1/splits/Surgical/task1.json",
+      "split_identity": "c10e88cd9582bda4815fd34e2f711de5bc246ce884e2de2467f26ee4eee69e79",
+      "result": "reports/reference_net/reference_net_v1/Surgical/task1/seed_42/RESULT.json",
+      "result_sha256": "aa026dca07faf3fbca250e0831f0fe554627be11fb9efc85a7617162ae4c4e38",
+      "lock": "runs/reference_net/reference_net_v1/Surgical/task1/seed_42/LOCK.json",
+      "lock_sha256": "924e3b77ddd3e1f57573f61a4834b1c125b09dad6ee6706e0ce27b58d31e6861",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task1/seed_42/last.pt",
+        "sha256": "22175039f692c45de6debec43d82a43a6bbcb05d256cacc0ccd8452b346cc40d",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task1/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "d2f03f775fdfac55bc57ec81f902e85f799b37edab799eb76968afaead9a0cd4",
+        "calibration_checkpoint_sha256": "22175039f692c45de6debec43d82a43a6bbcb05d256cacc0ccd8452b346cc40d"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task1/seed_42/best.pt",
+        "sha256": "4e289db558e7040859c9df749287080424d5aaf32713323ead1a22bdda0e8ef0",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task1/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "d2f03f775fdfac55bc57ec81f902e85f799b37edab799eb76968afaead9a0cd4",
+        "calibration_checkpoint_sha256": "22175039f692c45de6debec43d82a43a6bbcb05d256cacc0ccd8452b346cc40d"
+      }
+    },
+    {
+      "id": "Surgical/task1/seed_43",
+      "scene": "Surgical",
+      "task": "task1",
+      "seed": 43,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Surgical/task1",
+      "reference_manifest_sha256": "e2fa62a91cda4ea97f8bdd1779185d280f6084c694d64245efc4b102d5ee8e46",
+      "split": "prepared/reference_net/reference_net_v1/splits/Surgical/task1.json",
+      "split_identity": "c10e88cd9582bda4815fd34e2f711de5bc246ce884e2de2467f26ee4eee69e79",
+      "result": "reports/reference_net/reference_net_v1/Surgical/task1/seed_43/RESULT.json",
+      "result_sha256": "da2199cb6e0f47df17264845394e50809bf548b1e76c86acaea10f293d9a5e5e",
+      "lock": "runs/reference_net/reference_net_v1/Surgical/task1/seed_43/LOCK.json",
+      "lock_sha256": "8401b70579740cec4aa0551144e43f6cb824118219d543a3f3ea5168fa8ce265",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task1/seed_43/last.pt",
+        "sha256": "52b9f24c8e3289b1452d3f42cf91df00920a1c9487151cb699034fb0ebdd190d",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task1/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "3181ae667064492db43eadfe2b638f6bd36117e81bd7c009b1c8cebe81e9a663",
+        "calibration_checkpoint_sha256": "52b9f24c8e3289b1452d3f42cf91df00920a1c9487151cb699034fb0ebdd190d"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task1/seed_43/best.pt",
+        "sha256": "02e52fe045090e596781e64a70a884f908ad36fd59d73cc47cf16d908ed62943",
+        "step": 400,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task1/seed_43/selected/CALIBRATION.json",
+        "calibration_sha256": "97c5009ccce909feca03fdec7018d743bb223a2d8ffc3acee3adaf3ddedb7c78",
+        "calibration_checkpoint_sha256": "02e52fe045090e596781e64a70a884f908ad36fd59d73cc47cf16d908ed62943"
+      }
+    },
+    {
+      "id": "Surgical/task1/seed_44",
+      "scene": "Surgical",
+      "task": "task1",
+      "seed": 44,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Surgical/task1",
+      "reference_manifest_sha256": "e2fa62a91cda4ea97f8bdd1779185d280f6084c694d64245efc4b102d5ee8e46",
+      "split": "prepared/reference_net/reference_net_v1/splits/Surgical/task1.json",
+      "split_identity": "c10e88cd9582bda4815fd34e2f711de5bc246ce884e2de2467f26ee4eee69e79",
+      "result": "reports/reference_net/reference_net_v1/Surgical/task1/seed_44/RESULT.json",
+      "result_sha256": "7c770142042199716e0595fb92f125b177a50bd59ff67af06fe0fd7dc39e4f0c",
+      "lock": "runs/reference_net/reference_net_v1/Surgical/task1/seed_44/LOCK.json",
+      "lock_sha256": "46b04b15eb0d9a7520b5363116794fcf2d0410d49a823a6057f848eb58f38e17",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task1/seed_44/last.pt",
+        "sha256": "75b2fa8218dd90a6a4309905b265fb4357208ed677de64e930cb26a5cabf8fe2",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task1/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "6e86cdb2b369378ef45d5f64ee12a93c1d4169f8f82989afc06b1ca07ab3d01d",
+        "calibration_checkpoint_sha256": "75b2fa8218dd90a6a4309905b265fb4357208ed677de64e930cb26a5cabf8fe2"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task1/seed_44/best.pt",
+        "sha256": "f9fc0f9770d6fd2bd1d58b6b3ccfcb7c01addbabc0f29fd71d55c7926c953208",
+        "step": 450,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task1/seed_44/selected/CALIBRATION.json",
+        "calibration_sha256": "fef5933110ae98a0918287da986301021b29421866d99d0d0418f1a6b1906df4",
+        "calibration_checkpoint_sha256": "f9fc0f9770d6fd2bd1d58b6b3ccfcb7c01addbabc0f29fd71d55c7926c953208"
+      }
+    },
+    {
+      "id": "Surgical/task2/seed_42",
+      "scene": "Surgical",
+      "task": "task2",
+      "seed": 42,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Surgical/task2",
+      "reference_manifest_sha256": "281f54d90037521a0ec8e8751006b5ba807bffea1b560e0b64aba5b3ad390f59",
+      "split": "prepared/reference_net/reference_net_v1/splits/Surgical/task2.json",
+      "split_identity": "169f6baaa94a322bea4f40055574e9b632fb14e2d2c7ec8fa0afc0725c4f78a4",
+      "result": "reports/reference_net/reference_net_v1/Surgical/task2/seed_42/RESULT.json",
+      "result_sha256": "33b767847d65ba96f58fa60762ea2e9ecbde96c78eb666db378bdabf17ada79c",
+      "lock": "runs/reference_net/reference_net_v1/Surgical/task2/seed_42/LOCK.json",
+      "lock_sha256": "0ece851af1ba4e2bed852711042a7bcd6b8173906852c3328b6e752ed7fc6614",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task2/seed_42/last.pt",
+        "sha256": "4409289f5319b8d79a9e0c94dde8291408cf9464a1a6f66c8b40053712d5b26d",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task2/seed_42/terminal/CALIBRATION.json",
+        "calibration_sha256": "c2a90db7ede45006dae1bf0711b391e436514cd84d33f583290b5b5b5747a81d",
+        "calibration_checkpoint_sha256": "4409289f5319b8d79a9e0c94dde8291408cf9464a1a6f66c8b40053712d5b26d"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task2/seed_42/best.pt",
+        "sha256": "9717e02e1367dfdb75bf5a591900ce9494afa137d70754c19add8d3a00c4943a",
+        "step": 350,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task2/seed_42/selected/CALIBRATION.json",
+        "calibration_sha256": "a9a74364be5a3232a52deb7a0d6386167c5d3aac60a55eb266e729a5d2833585",
+        "calibration_checkpoint_sha256": "9717e02e1367dfdb75bf5a591900ce9494afa137d70754c19add8d3a00c4943a"
+      }
+    },
+    {
+      "id": "Surgical/task2/seed_43",
+      "scene": "Surgical",
+      "task": "task2",
+      "seed": 43,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Surgical/task2",
+      "reference_manifest_sha256": "281f54d90037521a0ec8e8751006b5ba807bffea1b560e0b64aba5b3ad390f59",
+      "split": "prepared/reference_net/reference_net_v1/splits/Surgical/task2.json",
+      "split_identity": "169f6baaa94a322bea4f40055574e9b632fb14e2d2c7ec8fa0afc0725c4f78a4",
+      "result": "reports/reference_net/reference_net_v1/Surgical/task2/seed_43/RESULT.json",
+      "result_sha256": "65365a6fb3fcfb978386279400ca001a04564d7fd55530480b4e95cb92558e48",
+      "lock": "runs/reference_net/reference_net_v1/Surgical/task2/seed_43/LOCK.json",
+      "lock_sha256": "9d232d7479eab9af6198ef6e8c83f97f29cbbe6d10d6054bdbec4193653da502",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task2/seed_43/last.pt",
+        "sha256": "3654596667896d602b8f697e8c1922792795510096294c422c8088d85bb8f8e8",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task2/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "ad513e3c612004fd994a943649f6e02c9e067403c9e47396e4042311c55ddb12",
+        "calibration_checkpoint_sha256": "3654596667896d602b8f697e8c1922792795510096294c422c8088d85bb8f8e8"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task2/seed_43/best.pt",
+        "sha256": "49a861d0d5d5e12690726c48fb8049cf14542a499d09a1a4297981f3c529d194",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task2/seed_43/terminal/CALIBRATION.json",
+        "calibration_sha256": "ad513e3c612004fd994a943649f6e02c9e067403c9e47396e4042311c55ddb12",
+        "calibration_checkpoint_sha256": "3654596667896d602b8f697e8c1922792795510096294c422c8088d85bb8f8e8"
+      }
+    },
+    {
+      "id": "Surgical/task2/seed_44",
+      "scene": "Surgical",
+      "task": "task2",
+      "seed": 44,
+      "reference_cache": "prepared/reference_net/reference_net_v1/cache/Surgical/task2",
+      "reference_manifest_sha256": "281f54d90037521a0ec8e8751006b5ba807bffea1b560e0b64aba5b3ad390f59",
+      "split": "prepared/reference_net/reference_net_v1/splits/Surgical/task2.json",
+      "split_identity": "169f6baaa94a322bea4f40055574e9b632fb14e2d2c7ec8fa0afc0725c4f78a4",
+      "result": "reports/reference_net/reference_net_v1/Surgical/task2/seed_44/RESULT.json",
+      "result_sha256": "96ff3af0172b1dfb6c9415bf03e3a205153e94dbd2c198f6c8f49fcafbf56fc7",
+      "lock": "runs/reference_net/reference_net_v1/Surgical/task2/seed_44/LOCK.json",
+      "lock_sha256": "0189842974ca68a3f5da97aba362bc893f792f535e639085392f43e58d7f2ee0",
+      "terminal": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task2/seed_44/last.pt",
+        "sha256": "cbfc37f8eae9ca5c38d1086bf16cd56f36bccd0cc90641c05e4eb21ec9605c22",
+        "step": 500,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task2/seed_44/terminal/CALIBRATION.json",
+        "calibration_sha256": "2780207841462d6ef1f9efbc0f57b1d2d49866f22e39e61a517cb9cf64ed4b63",
+        "calibration_checkpoint_sha256": "cbfc37f8eae9ca5c38d1086bf16cd56f36bccd0cc90641c05e4eb21ec9605c22"
+      },
+      "selected": {
+        "checkpoint": "runs/reference_net/reference_net_v1/Surgical/task2/seed_44/best.pt",
+        "sha256": "25a2e227d44b7c63eb6d8183f49ab867cc015b82c23bf0ce311cc98152a653ce",
+        "step": 400,
+        "calibration": "reports/reference_net/reference_net_v1/Surgical/task2/seed_44/selected/CALIBRATION.json",
+        "calibration_sha256": "6105f0f4f410f2f7ccc1847d9ad1da95510de0ecf9cee56c4b72aab234110ec7",
+        "calibration_checkpoint_sha256": "25a2e227d44b7c63eb6d8183f49ab867cc015b82c23bf0ce311cc98152a653ce"
+      }
+    }
+  ],
+  "source_bundle_sha256": "b7f5f10dab3dca1117a080482b222b0fb9e426d8042dbd5014a2f1e989c6ab2c",
+  "plan_sha256": "eab3d5b432e73aedd363f99c1ad4178115a2ee5051638deded5f4451eac25e81",
+  "original_source": "7913c408c00da4c3d045d1325fec10efbfa53d48c831deefa209dc62165b0458",
+  "base_weights": {
+    "assets/models/pfrpn/pf_rpn_swinb_5p_coco_imagenet.pth": "74269b7d0f6dfc01c7552e26110e208eb6c0592384128bdea5f1b3217060c303",
+    "assets/models/dinov3_large/model.safetensors": "45172f209c9583c40538afc26b60a07033e6fcc2e8c30228338e6b2e932e7941"
+  },
+  "default": "probe: Aquatic/Game task1/task2 seed42 last.pt",
+  "note": "No model weights are present merely because this index exists"
+}
